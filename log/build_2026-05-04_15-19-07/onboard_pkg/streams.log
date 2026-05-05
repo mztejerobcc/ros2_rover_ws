@@ -1,0 +1,18 @@
+[0.190s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4
+[0.412s] [ 33%] [32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_data_pub_main.cpp.o[0m
+[0.412s] [ 33%] [32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_data_pub_lib.cpp.o[0m
+[0.438s] [01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_data_pub_main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Konboard_pkg/rvr_data_pub_lib.hpp: No such file or directory
+[0.439s]     1 | #include [01;31m[K"onboard_pkg/rvr_data_pub_lib.hpp"[m[K
+[0.439s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.440s] compilation terminated.
+[0.443s] gmake[2]: *** [CMakeFiles/rvr_data_pub.dir/build.make:90: CMakeFiles/rvr_data_pub.dir/src/rvr_data_pub_main.cpp.o] Error 1
+[0.443s] gmake[2]: *** Waiting for unfinished jobs....
+[0.448s] [ 83%] Built target cmd_vel_sub
+[0.450s] [01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_data_pub_lib.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Konboard_pkg/rvr_data_pub_lib.hpp: No such file or directory
+[0.450s]     1 | #include [01;31m[K"onboard_pkg/rvr_data_pub_lib.hpp"[m[K
+[0.451s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.452s] compilation terminated.
+[0.453s] gmake[2]: *** [CMakeFiles/rvr_data_pub.dir/build.make:76: CMakeFiles/rvr_data_pub.dir/src/rvr_data_pub_lib.cpp.o] Error 1
+[0.455s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rvr_data_pub.dir/all] Error 2
+[0.455s] gmake: *** [Makefile:146: all] Error 2
+[0.466s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg' returned '2': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4

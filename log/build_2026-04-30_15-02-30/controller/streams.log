@@ -1,0 +1,66 @@
+[0.052s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/controller': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/rvr_files:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake /home/mztejero/rvr_ros2_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/mztejero/rvr_ros2_ws/install/controller
+[0.210s] -- The C compiler identification is GNU 11.4.0
+[0.329s] -- The CXX compiler identification is GNU 11.4.0
+[0.359s] -- Detecting C compiler ABI info
+[0.611s] -- Detecting C compiler ABI info - done
+[0.640s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.640s] -- Detecting C compile features
+[0.641s] -- Detecting C compile features - done
+[0.647s] -- Detecting CXX compiler ABI info
+[1.072s] -- Detecting CXX compiler ABI info - done
+[1.094s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.095s] -- Detecting CXX compile features
+[1.099s] -- Detecting CXX compile features - done
+[1.103s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.491s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.675s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.755s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.766s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.782s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.959s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.966s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.177s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.229s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.306s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.324s] -- Looking for pthread.h
+[2.489s] -- Looking for pthread.h - found
+[2.491s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.704s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.705s] -- Found Threads: TRUE  
+[2.920s] -- Found rvr_msgs: 0.0.0 (/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake)
+[3.005s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.229s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.229s] -- Configured cppcheck include dirs: /home/mztejero/rvr_ros2_ws/src/controller/include
+[3.229s] -- Configured cppcheck exclude dirs and/or files: 
+[3.231s] -- Added test 'lint_cmake' to check CMake code style
+[3.236s] -- Added test 'uncrustify' to check C / C++ code style
+[3.237s] -- Configured uncrustify additional arguments: 
+[3.241s] -- Added test 'xmllint' to check XML markup files
+[3.244s] -- Configuring done
+[3.275s] -- Generating done
+[3.321s] -- Build files have been written to: /home/mztejero/rvr_ros2_ws/build/controller
+[3.337s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/rvr_files:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake /home/mztejero/rvr_ros2_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/mztejero/rvr_ros2_ws/install/controller
+[3.342s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/controller': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/rvr_files:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/controller -- -j4 -l4
+[3.512s] [ 25%] [32mBuilding CXX object CMakeFiles/rc_pub.dir/src/usb_interface_lib.cpp.o[0m
+[3.517s] [ 50%] [32mBuilding CXX object CMakeFiles/rc_pub.dir/src/rc_pub_main.cpp.o[0m
+[3.517s] [ 75%] [32mBuilding CXX object CMakeFiles/rc_pub.dir/src/rc_pub_lib.cpp.o[0m
+[3.554s] [01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krvr_files/usb_interface_lib.hpp: No such file or directory
+[3.555s]     1 | #include [01;31m[K"rvr_files/usb_interface_lib.hpp"[m[K
+[3.555s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.555s] compilation terminated.
+[3.555s] [01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/rc_pub_lib.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krvr_files/rc_pub_lib.hpp: No such file or directory
+[3.555s]     1 | #include [01;31m[K"rvr_files/rc_pub_lib.hpp"[m[K
+[3.556s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.556s] compilation terminated.
+[3.556s] gmake[2]: *** [CMakeFiles/rc_pub.dir/build.make:104: CMakeFiles/rc_pub.dir/src/usb_interface_lib.cpp.o] Error 1
+[3.556s] gmake[2]: *** Waiting for unfinished jobs....
+[3.556s] gmake[2]: *** [CMakeFiles/rc_pub.dir/build.make:76: CMakeFiles/rc_pub.dir/src/rc_pub_lib.cpp.o] Error 1
+[3.556s] [01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/rc_pub_main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krvr_files/rc_pub_lib.hpp: No such file or directory
+[3.557s]     1 | #include [01;31m[K"rvr_files/rc_pub_lib.hpp"[m[K
+[3.557s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.557s] compilation terminated.
+[3.560s] gmake[2]: *** [CMakeFiles/rc_pub.dir/build.make:90: CMakeFiles/rc_pub.dir/src/rc_pub_main.cpp.o] Error 1
+[3.566s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rc_pub.dir/all] Error 2
+[3.567s] gmake: *** [Makefile:146: all] Error 2

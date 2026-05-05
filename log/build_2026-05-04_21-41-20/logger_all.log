@@ -1,0 +1,404 @@
+[0.206s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.206s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cb237cd85b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cb237cd80a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cb237cd80a0>>)
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.480s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mztejero/rvr_ros2_ws'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ros'
+[0.510s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller' with type 'ros.ament_cmake' and name 'controller'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_processor) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_processor) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_processor) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_processor) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_processor) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_processor) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_processor) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_processor) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_processor) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data_processor' with type 'ros.ament_cmake' and name 'data_processor'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/onboard_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/onboard_pkg) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/onboard_pkg) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/onboard_pkg) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/onboard_pkg) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/onboard_pkg) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/onboard_pkg) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/onboard_pkg) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/onboard_pkg) by extension 'ros'
+[0.516s] DEBUG:colcon.colcon_core.package_identification:Package 'src/onboard_pkg' with type 'ros.ament_cmake' and name 'onboard_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/rvr_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/rvr_msgs) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/rvr_msgs) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/rvr_msgs) by extensions ['colcon_pkg']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/rvr_msgs) by extension 'colcon_pkg'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/rvr_msgs) by extensions ['colcon_meta']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/rvr_msgs) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/rvr_msgs) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/rvr_msgs) by extension 'ros'
+[0.518s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rvr_msgs' with type 'ros.ament_cmake' and name 'rvr_msgs'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/visualization) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visualization' with type 'ros.ament_cmake' and name 'visualization'
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.559s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mztejero/rvr_ros2_ws/install
+[0.560s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mztejero/ros2_ws/install
+[0.561s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mztejero/rover_ws/install
+[0.563s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_target' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_clean_first' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'cmake_force_configure' from command line to 'False'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'ament_cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.662s] Level 5:colcon.colcon_core.verb:set package 'data_processor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.662s] DEBUG:colcon.colcon_core.verb:Building package 'data_processor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mztejero/rvr_ros2_ws/build/data_processor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mztejero/rvr_ros2_ws/install/data_processor', 'merge_install': False, 'path': '/home/mztejero/rvr_ros2_ws/src/data_processor', 'symlink_install': False, 'test_result_base': None}
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'rvr_msgs' build argument 'cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'rvr_msgs' build argument 'cmake_target' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'rvr_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'rvr_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'rvr_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'rvr_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'rvr_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.663s] Level 5:colcon.colcon_core.verb:set package 'rvr_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'rvr_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.664s] DEBUG:colcon.colcon_core.verb:Building package 'rvr_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mztejero/rvr_ros2_ws/build/rvr_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mztejero/rvr_ros2_ws/install/rvr_msgs', 'merge_install': False, 'path': '/home/mztejero/rvr_ros2_ws/src/rvr_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.665s] DEBUG:colcon.colcon_core.verb:Building package 'visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mztejero/rvr_ros2_ws/build/visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mztejero/rvr_ros2_ws/install/visualization', 'merge_install': False, 'path': '/home/mztejero/rvr_ros2_ws/src/visualization', 'symlink_install': False, 'test_result_base': None}
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mztejero/rvr_ros2_ws/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mztejero/rvr_ros2_ws/install/controller', 'merge_install': False, 'path': '/home/mztejero/rvr_ros2_ws/src/controller', 'symlink_install': False, 'test_result_base': None}
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'onboard_pkg' build argument 'cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'onboard_pkg' build argument 'cmake_target' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'onboard_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'onboard_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'onboard_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'onboard_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'onboard_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'onboard_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'onboard_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.667s] DEBUG:colcon.colcon_core.verb:Building package 'onboard_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mztejero/rvr_ros2_ws/build/onboard_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mztejero/rvr_ros2_ws/install/onboard_pkg', 'merge_install': False, 'path': '/home/mztejero/rvr_ros2_ws/src/onboard_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.667s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.670s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mztejero/rvr_ros2_ws/src/rvr_msgs' with build type 'ament_cmake'
+[0.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mztejero/rvr_ros2_ws/src/rvr_msgs'
+[0.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.679s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.679s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.688s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mztejero/rvr_ros2_ws/src/data_processor' with build type 'ament_cmake'
+[0.690s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mztejero/rvr_ros2_ws/src/data_processor'
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.702s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mztejero/rvr_ros2_ws/src/visualization' with build type 'ament_cmake'
+[0.703s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mztejero/rvr_ros2_ws/src/visualization'
+[0.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/rvr_msgs -- -j4 -l4
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/data_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/data_processor -- -j4 -l4
+[0.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/visualization -- -j4 -l4
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/data_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/data_processor -- -j4 -l4
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/data_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/data_processor
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/visualization -- -j4 -l4
+[1.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/visualization
+[1.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_processor)
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/data_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/data_processor
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor' for CMake module files
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor' for CMake config files
+[1.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_processor', 'cmake_prefix_path')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/hook/cmake_prefix_path.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/hook/cmake_prefix_path.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/hook/cmake_prefix_path.sh'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor/bin'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor/lib/pkgconfig/data_processor.pc'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor/lib/python3.10/site-packages'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor/bin'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.sh'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.bash'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.zsh'
+[1.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/data_processor/share/colcon-core/packages/data_processor)
+[1.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_processor)
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor' for CMake module files
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor' for CMake config files
+[1.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_processor', 'cmake_prefix_path')
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/hook/cmake_prefix_path.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/hook/cmake_prefix_path.dsv'
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/hook/cmake_prefix_path.sh'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor/bin'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor/lib/pkgconfig/data_processor.pc'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor/lib/python3.10/site-packages'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/data_processor/bin'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.sh'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.bash'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/data_processor/share/data_processor/package.zsh'
+[1.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/data_processor/share/colcon-core/packages/data_processor)
+[1.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization)
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization' for CMake module files
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization' for CMake config files
+[1.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'cmake_prefix_path')
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/hook/cmake_prefix_path.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/hook/cmake_prefix_path.dsv'
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/visualization
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/hook/cmake_prefix_path.sh'
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization/bin'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization/lib/pkgconfig/visualization.pc'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization/lib/python3.10/site-packages'
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization/bin'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.dsv'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.sh'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.bash'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.zsh'
+[1.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/visualization/share/colcon-core/packages/visualization)
+[1.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization)
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization' for CMake module files
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization' for CMake config files
+[1.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization', 'cmake_prefix_path')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/hook/cmake_prefix_path.ps1'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/hook/cmake_prefix_path.dsv'
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/hook/cmake_prefix_path.sh'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization/bin'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization/lib/pkgconfig/visualization.pc'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization/lib/python3.10/site-packages'
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/visualization/bin'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.ps1'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.sh'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.bash'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.zsh'
+[1.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/visualization/share/colcon-core/packages/visualization)
+[1.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/rvr_msgs -- -j4 -l4
+[1.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/rvr_msgs
+[2.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rvr_msgs)
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs' for CMake module files
+[2.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/rvr_msgs
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs' for CMake config files
+[2.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('rvr_msgs', 'cmake_prefix_path')
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/cmake_prefix_path.ps1'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/cmake_prefix_path.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/cmake_prefix_path.sh'
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib'
+[2.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('rvr_msgs', 'ld_library_path_lib')
+[2.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/ld_library_path_lib.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/ld_library_path_lib.dsv'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/ld_library_path_lib.sh'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/bin'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/pkgconfig/rvr_msgs.pc'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/python3.10/site-packages'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/bin'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.ps1'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.dsv'
+[2.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.sh'
+[2.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.bash'
+[2.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.zsh'
+[2.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/colcon-core/packages/rvr_msgs)
+[2.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rvr_msgs)
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs' for CMake module files
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs' for CMake config files
+[2.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('rvr_msgs', 'cmake_prefix_path')
+[2.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/cmake_prefix_path.ps1'
+[2.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/cmake_prefix_path.dsv'
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/cmake_prefix_path.sh'
+[2.057s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib'
+[2.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('rvr_msgs', 'ld_library_path_lib')
+[2.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/ld_library_path_lib.ps1'
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/ld_library_path_lib.dsv'
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/hook/ld_library_path_lib.sh'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/bin'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/pkgconfig/rvr_msgs.pc'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/python3.10/site-packages'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/bin'
+[2.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.ps1'
+[2.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.dsv'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.sh'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.bash'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.zsh'
+[2.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/colcon-core/packages/rvr_msgs)
+[2.074s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mztejero/rvr_ros2_ws/src/controller' with build type 'ament_cmake'
+[2.074s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mztejero/rvr_ros2_ws/src/controller'
+[2.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.094s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mztejero/rvr_ros2_ws/src/onboard_pkg' with build type 'ament_cmake'
+[2.095s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mztejero/rvr_ros2_ws/src/onboard_pkg'
+[2.096s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.096s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/controller': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/controller -- -j4 -l4
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4
+[2.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg' returned '0': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4
+[2.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/onboard_pkg
+[2.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(onboard_pkg)
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg' for CMake module files
+[2.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg' returned '0': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/onboard_pkg
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg' for CMake config files
+[2.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('onboard_pkg', 'cmake_prefix_path')
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/hook/cmake_prefix_path.ps1'
+[2.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/hook/cmake_prefix_path.dsv'
+[2.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/hook/cmake_prefix_path.sh'
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib'
+[2.388s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/bin'
+[2.388s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/pkgconfig/onboard_pkg.pc'
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/python3.10/site-packages'
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/bin'
+[2.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.dsv'
+[2.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.sh'
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.bash'
+[2.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.zsh'
+[2.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/colcon-core/packages/onboard_pkg)
+[2.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(onboard_pkg)
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg' for CMake module files
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg' for CMake config files
+[2.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('onboard_pkg', 'cmake_prefix_path')
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/hook/cmake_prefix_path.ps1'
+[2.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/hook/cmake_prefix_path.dsv'
+[2.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/hook/cmake_prefix_path.sh'
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/bin'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/pkgconfig/onboard_pkg.pc'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/python3.10/site-packages'
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/bin'
+[2.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.ps1'
+[2.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.dsv'
+[2.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.sh'
+[2.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.bash'
+[2.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.zsh'
+[2.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/colcon-core/packages/onboard_pkg)
+[3.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/controller -- -j4 -l4
+[3.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mztejero/rvr_ros2_ws/build/controller': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/controller
+[3.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[3.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mztejero/rvr_ros2_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/controller
+[3.896s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller' for CMake module files
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller' for CMake config files
+[3.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'cmake_prefix_path')
+[3.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[3.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/lib'
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/bin'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/lib/pkgconfig/controller.pc'
+[3.909s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/lib/python3.10/site-packages'
+[3.909s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/bin'
+[3.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.ps1'
+[3.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.dsv'
+[3.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.sh'
+[3.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.bash'
+[3.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.zsh'
+[3.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/controller/share/colcon-core/packages/controller)
+[3.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[3.933s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller' for CMake module files
+[3.935s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller' for CMake config files
+[3.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'cmake_prefix_path')
+[3.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[3.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[3.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/lib'
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/bin'
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/lib/pkgconfig/controller.pc'
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/lib/python3.10/site-packages'
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/mztejero/rvr_ros2_ws/install/controller/bin'
+[3.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.ps1'
+[3.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.dsv'
+[3.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.sh'
+[3.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.bash'
+[3.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.zsh'
+[3.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mztejero/rvr_ros2_ws/install/controller/share/colcon-core/packages/controller)
+[3.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.961s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.963s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.985s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.985s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.991s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[3.992s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mztejero/rvr_ros2_ws/install/local_setup.ps1'
+[3.997s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mztejero/rvr_ros2_ws/install/_local_setup_util_ps1.py'
+[4.007s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mztejero/rvr_ros2_ws/install/setup.ps1'
+[4.013s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mztejero/rvr_ros2_ws/install/local_setup.sh'
+[4.018s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mztejero/rvr_ros2_ws/install/_local_setup_util_sh.py'
+[4.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mztejero/rvr_ros2_ws/install/setup.sh'
+[4.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mztejero/rvr_ros2_ws/install/local_setup.bash'
+[4.033s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mztejero/rvr_ros2_ws/install/setup.bash'
+[4.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mztejero/rvr_ros2_ws/install/local_setup.zsh'
+[4.042s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mztejero/rvr_ros2_ws/install/setup.zsh'

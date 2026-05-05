@@ -1,0 +1,20 @@
+[0.446s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/visualization -- -j4 -l4
+[0.669s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/visualization -- -j4 -l4
+[0.683s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/visualization
+[0.718s] -- Install configuration: ""
+[0.724s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/ament_index/resource_index/package_run_dependencies/visualization
+[0.724s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/ament_index/resource_index/parent_prefix_path/visualization
+[0.725s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/environment/ament_prefix_path.sh
+[0.725s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/environment/ament_prefix_path.dsv
+[0.731s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/environment/path.sh
+[0.740s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/environment/path.dsv
+[0.740s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/local_setup.bash
+[0.762s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/local_setup.sh
+[0.762s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/local_setup.zsh
+[0.762s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/local_setup.dsv
+[0.763s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.dsv
+[0.774s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/ament_index/resource_index/packages/visualization
+[0.774s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/cmake/visualizationConfig.cmake
+[0.774s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/cmake/visualizationConfig-version.cmake
+[0.774s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.xml
+[0.870s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/visualization

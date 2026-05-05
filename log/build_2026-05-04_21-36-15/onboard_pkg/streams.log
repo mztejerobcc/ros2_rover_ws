@@ -1,0 +1,29 @@
+[0.056s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target rvr_data_pub[0m
+[0.340s] [ 42%] Built target cmd_vel_sub
+[0.345s] [ 57%] [32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_data_pub_lib.cpp.o[0m
+[0.345s] [ 71%] [32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o[0m
+[15.930s] [ 85%] [32m[1mLinking CXX executable rvr_data_pub[0m
+[16.313s] [100%] Built target rvr_data_pub
+[16.336s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg' returned '0': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4
+[16.348s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/onboard_pkg
+[16.363s] -- Install configuration: ""
+[16.370s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/cmd_vel_sub
+[16.377s] -- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/rvr_data_pub
+[16.380s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/rvr_data_pub" to ""
+[16.380s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/ament_index/resource_index/package_run_dependencies/onboard_pkg
+[16.380s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/ament_index/resource_index/parent_prefix_path/onboard_pkg
+[16.381s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/ament_prefix_path.sh
+[16.382s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/ament_prefix_path.dsv
+[16.383s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/path.sh
+[16.383s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/path.dsv
+[16.383s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.bash
+[16.384s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.sh
+[16.384s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.zsh
+[16.385s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.dsv
+[16.385s] -- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.dsv
+[16.386s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/ament_index/resource_index/packages/onboard_pkg
+[16.387s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/cmake/onboard_pkgConfig.cmake
+[16.388s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/cmake/onboard_pkgConfig-version.cmake
+[16.389s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.xml
+[16.393s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg' returned '0': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/onboard_pkg

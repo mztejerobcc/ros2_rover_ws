@@ -1,0 +1,12 @@
+[0.041s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4
+[0.186s] [35m[1mConsolidate compiler generated dependencies of target rvr_data_pub[0m
+[0.231s] [ 42%] Built target cmd_vel_sub
+[0.243s] [ 57%] [32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o[0m
+[0.838s] [01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:[m[K In member function ‘[01m[Kstd::string rvrUsbInterface::usbRead()[m[K’:
+[0.838s] [01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:60:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[0.838s]    60 |     while (buffer[[01;31m[Ki[m[K] != '\n') {
+[0.838s]       |                   [01;31m[K^[m[K
+[0.920s] gmake[2]: *** [CMakeFiles/rvr_data_pub.dir/build.make:104: CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o] Error 1
+[0.922s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rvr_data_pub.dir/all] Error 2
+[0.922s] gmake: *** [Makefile:146: all] Error 2
+[0.927s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg' returned '2': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4

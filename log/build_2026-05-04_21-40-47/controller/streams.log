@@ -1,0 +1,33 @@
+[0.043s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/controller': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/controller -- -j4 -l4
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target rc_pub[0m
+[0.228s] [ 25%] [32mBuilding CXX object CMakeFiles/rc_pub.dir/src/usb_interface_lib.cpp.o[0m
+[0.758s] [01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:[m[K In member function ‘[01m[Kvoid usbInterface::parseData(std::string)[m[K’:
+[0.758s] [01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:129:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvyl[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.758s]   129 |     float [01;35m[Kvyl[m[K = strtod(line_data[1], NULL) * 10e-3;
+[0.758s]       |           [01;35m[K^~~[m[K
+[0.758s] [01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:130:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvxr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.758s]   130 |     float [01;35m[Kvxr[m[K = strtod(line_data[2], NULL) * 10e-3;
+[0.758s]       |           [01;35m[K^~~[m[K
+[0.887s] [ 50%] [32m[1mLinking CXX executable rc_pub[0m
+[1.230s] [100%] Built target rc_pub
+[1.260s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/controller -- -j4 -l4
+[1.261s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/controller': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/controller
+[1.276s] -- Install configuration: ""
+[1.276s] -- Installing: /home/mztejero/rvr_ros2_ws/install/controller/lib/controller/rc_pub
+[1.280s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/controller/lib/controller/rc_pub" to ""
+[1.281s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[1.281s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[1.282s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/environment/ament_prefix_path.sh
+[1.282s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/environment/ament_prefix_path.dsv
+[1.282s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/environment/path.sh
+[1.283s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/environment/path.dsv
+[1.283s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/local_setup.bash
+[1.283s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/local_setup.sh
+[1.283s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/local_setup.zsh
+[1.283s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/local_setup.dsv
+[1.283s] -- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.dsv
+[1.283s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/ament_index/resource_index/packages/controller
+[1.283s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/cmake/controllerConfig.cmake
+[1.284s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[1.284s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.xml
+[1.288s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/controller

@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target rvr_data_pub[0m
+[ 57%] Built target cmd_vel_sub
+[ 42%] [32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o[0m
+[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:[m[K In member function ‘[01m[Kstd::string rvrUsbInterface::usbRead()[m[K’:
+[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:62:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbytes_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   62 |         ssize_t [01;35m[Kbytes_read[m[K = read(fd, buffer, sizeof(buffer) - 1);
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[ 71%] [32m[1mLinking CXX executable rvr_data_pub[0m
+[100%] Built target rvr_data_pub
+-- Install configuration: ""
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/cmd_vel_sub
+-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/rvr_data_pub
+-- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/rvr_data_pub" to ""
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/ament_index/resource_index/package_run_dependencies/onboard_pkg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/ament_index/resource_index/parent_prefix_path/onboard_pkg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/path.sh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/path.dsv
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.bash
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.sh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.zsh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.dsv
+-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.dsv
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/ament_index/resource_index/packages/onboard_pkg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/cmake/onboard_pkgConfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/cmake/onboard_pkgConfig-version.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.xml

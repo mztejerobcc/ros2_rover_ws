@@ -1,0 +1,29 @@
+[0.054s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4
+[0.382s] [35m[1mConsolidate compiler generated dependencies of target rvr_data_pub[0m
+[0.497s] [ 50%] Built target cmd_vel_sub
+[0.519s] [ 66%] [32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_data_pub_lib.cpp.o[0m
+[5.281s] [01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_data_pub_lib.cpp:[m[K In constructor ‘[01m[KRoverDataPublisher::RoverDataPublisher()[m[K’:
+[5.282s] [01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_data_pub_lib.cpp:5:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[5.282s]     5 | RoverDataPublisher::RoverDataPublisher([01;31m[K)[m[K {
+[5.283s]       |                                        [01;31m[K^[m[K
+[5.284s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.290s]                  from [01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/include/onboard_pkg/rvr_data_pub_lib.hpp:7[m[K,
+[5.291s]                  from [01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_data_pub_lib.cpp:1[m[K:
+[5.291s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[5.291s]  1294 |   [01;36m[KNode[m[K(
+[5.291s]       |   [01;36m[K^~~~[m[K
+[5.291s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[5.292s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[5.292s]   101 |   explicit [01;36m[KNode[m[K(
+[5.293s]       |            [01;36m[K^~~~[m[K
+[5.293s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[5.293s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[5.293s]    89 |   explicit [01;36m[KNode[m[K(
+[5.294s]       |            [01;36m[K^~~~[m[K
+[5.294s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[6.113s] gmake[2]: *** [CMakeFiles/rvr_data_pub.dir/build.make:76: CMakeFiles/rvr_data_pub.dir/src/rvr_data_pub_lib.cpp.o] Error 1
+[6.113s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rvr_data_pub.dir/all] Error 2
+[6.114s] gmake: *** [Makefile:146: all] Error 2
+[6.124s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/onboard_pkg' returned '2': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/onboard_pkg -- -j4 -l4

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rvr_msgs__py",
+		"source" : "/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rvr_msgs__py"
+	}
+}

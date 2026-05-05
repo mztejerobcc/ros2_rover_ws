@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (-) JobUnselected: {'identifier': 'controller'}
+[0.000697] (-) JobUnselected: {'identifier': 'data_processor'}
+[0.002315] (-) JobUnselected: {'identifier': 'onboard_pkg'}
+[0.002747] (-) JobUnselected: {'identifier': 'visualization'}
+[0.003733] (rvr_msgs) JobQueued: {'identifier': 'rvr_msgs', 'dependencies': OrderedDict()}
+[0.004498] (rvr_msgs) JobStarted: {'identifier': 'rvr_msgs'}
+[0.038664] (rvr_msgs) JobProgress: {'identifier': 'rvr_msgs', 'progress': 'cmake'}
+[0.046328] (rvr_msgs) JobProgress: {'identifier': 'rvr_msgs', 'progress': 'build'}
+[0.048574] (rvr_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mztejero/rvr_ros2_ws/build/rvr_msgs', '--', '-j4', '-l4'], 'cwd': '/home/mztejero/rvr_ros2_ws/build/rvr_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mztejero'), ('SSH_CLIENT', '192.168.64.1 62095 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib:/home/mztejero/ros2_ws/install/rover_msg/lib:/home/mztejero/rover_ws/install/msg_types/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mztejero'), ('OLDPWD', '/home/mztejero'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install:/home/mztejero/ros2_ws/install:/home/mztejero/rover_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mztejero'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mztejero/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/hardware_interface:/home/mztejero/rover_ws/install/msg_types:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mztejero/rvr_ros2_ws/build/rvr_msgs'), ('SSH_CONNECTION', '192.168.64.1 62095 192.168.64.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages:/home/mztejero/ros2_ws/install/rover_msg/local/lib/python3.10/dist-packages:/home/mztejero/rover_ws/build/hardware_interface:/home/mztejero/rover_ws/install/hardware_interface/lib/python3.10/site-packages:/home/mztejero/rover_ws/install/msg_types/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble')]), 'shell': False}
+[0.098528] (-) TimerEvent: {}
+[0.200999] (-) TimerEvent: {}
+[0.212456] (rvr_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.302308] (-) TimerEvent: {}
+[0.404523] (-) TimerEvent: {}
+[0.506191] (-) TimerEvent: {}
+[0.545775] (rvr_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.554609] (rvr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.562681] (rvr_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.607429] (-) TimerEvent: {}
+[0.619103] (rvr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.708961] (-) TimerEvent: {}
+[0.810607] (-) TimerEvent: {}
+[0.911927] (-) TimerEvent: {}
+[1.013800] (-) TimerEvent: {}
+[1.115603] (-) TimerEvent: {}
+[1.198178] (rvr_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.216426] (-) TimerEvent: {}
+[1.317706] (-) TimerEvent: {}
+[1.419376] (-) TimerEvent: {}
+[1.522463] (-) TimerEvent: {}
+[1.560884] (rvr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.623625] (-) TimerEvent: {}
+[1.725790] (-) TimerEvent: {}
+[1.826709] (-) TimerEvent: {}
+[1.928228] (-) TimerEvent: {}
+[2.029955] (-) TimerEvent: {}
+[2.051212] (rvr_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.107426] (rvr_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.131615] (-) TimerEvent: {}
+[2.153335] (rvr_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.153693] (rvr_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.153875] (rvr_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.190712] (rvr_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.214319] (rvr_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.216554] (rvr_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.222412] (rvr_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.233160] (-) TimerEvent: {}
+[2.334937] (-) TimerEvent: {}
+[2.346576] (rvr_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.384335] (rvr_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/mztejero/rvr_ros2_ws/build/rvr_msgs\n'}
+[2.436040] (-) TimerEvent: {}
+[2.450928] (rvr_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.484043] (rvr_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.509638] (rvr_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_rvr_msgs\n'}
+[2.536819] (-) TimerEvent: {}
+[2.639380] (-) TimerEvent: {}
+[2.740801] (-) TimerEvent: {}
+[2.842353] (-) TimerEvent: {}
+[2.943644] (-) TimerEvent: {}
+[3.046729] (-) TimerEvent: {}
+[3.150212] (-) TimerEvent: {}
+[3.251938] (-) TimerEvent: {}
+[3.308069] (rvr_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.312996] (rvr_msgs) StdoutLine: {'line': b'writing rvr_msgs.egg-info/PKG-INFO\n'}
+[3.313337] (rvr_msgs) StdoutLine: {'line': b'writing dependency_links to rvr_msgs.egg-info/dependency_links.txt\n'}
+[3.313579] (rvr_msgs) StdoutLine: {'line': b'writing top-level names to rvr_msgs.egg-info/top_level.txt\n'}
+[3.319370] (rvr_msgs) StdoutLine: {'line': b"reading manifest file 'rvr_msgs.egg-info/SOURCES.txt'\n"}
+[3.322043] (rvr_msgs) StdoutLine: {'line': b"writing manifest file 'rvr_msgs.egg-info/SOURCES.txt'\n"}
+[3.353613] (-) TimerEvent: {}
+[3.391399] (rvr_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_rvr_msgs_egg\n'}
+[3.454841] (-) TimerEvent: {}
+[3.556745] (-) TimerEvent: {}
+[3.658240] (-) TimerEvent: {}
+[3.760487] (-) TimerEvent: {}
+[3.862163] (-) TimerEvent: {}
+[3.970812] (-) TimerEvent: {}
+[4.077098] (-) TimerEvent: {}
+[4.159410] (rvr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rvr_msgs__rosidl_generator_c\x1b[0m\n'}
+[4.179020] (-) TimerEvent: {}
+[4.224441] (rvr_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/rvr_msgs__rosidl_generator_c.dir/rosidl_generator_c/rvr_msgs/msg/detail/command_velocities__functions.c.o\x1b[0m\n'}
+[4.235306] (rvr_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/rvr_msgs__rosidl_generator_c.dir/rosidl_generator_c/rvr_msgs/msg/detail/vector3__functions.c.o\x1b[0m\n'}
+[4.263572] (rvr_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/rvr_msgs__rosidl_generator_c.dir/rosidl_generator_c/rvr_msgs/msg/detail/wheel4__functions.c.o\x1b[0m\n'}
+[4.281040] (-) TimerEvent: {}
+[4.297856] (rvr_msgs) StdoutLine: {'line': b'[  7%] Built target rvr_msgs__cpp\n'}
+[4.352723] (rvr_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.384529] (-) TimerEvent: {}
+[4.385502] (rvr_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/rvr_msgs__rosidl_generator_c.dir/rosidl_generator_c/rvr_msgs/msg/detail/rover_data__functions.c.o\x1b[0m\n'}
+[4.406436] (rvr_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/rvr_msgs__rosidl_generator_c.dir/rosidl_generator_c/rvr_msgs/msg/detail/pos_data__functions.c.o\x1b[0m\n'}
+[4.427581] (rvr_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_c/rvr_msgs/msg/detail/rover_data__functions.h:19\x1b[m\x1b[K,\n'}
+[4.428142] (rvr_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_c/rvr_msgs/msg/detail/rover_data__functions.c:4\x1b[m\x1b[K:\n'}
+[4.428406] (rvr_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_c/rvr_msgs/msg/detail/rover_data__struct.h:23:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg/msg/detail/wheel4__struct.h: No such file or directory\n'}
+[4.429280] (rvr_msgs) StderrLine: {'line': b'   23 | #include \x1b[01;31m\x1b[K"msg/msg/detail/wheel4__struct.h"\x1b[m\x1b[K\n'}
+[4.429544] (rvr_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.436985] (rvr_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[4.437517] (rvr_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rvr_msgs__rosidl_generator_c.dir/build.make:211: CMakeFiles/rvr_msgs__rosidl_generator_c.dir/rosidl_generator_c/rvr_msgs/msg/detail/rover_data__functions.c.o] Error 1\n'}
+[4.437823] (rvr_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.452460] (rvr_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.485393] (-) TimerEvent: {}
+[4.491233] (rvr_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.565870] (rvr_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/rvr_msgs__rosidl_generator_c.dir/all] Error 2\n'}
+[4.567461] (rvr_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.601812] (-) TimerEvent: {}
+[4.750167] (-) TimerEvent: {}
+[4.854498] (-) TimerEvent: {}
+[4.963157] (-) TimerEvent: {}
+[5.074926] (-) TimerEvent: {}
+[5.176475] (-) TimerEvent: {}
+[5.285663] (-) TimerEvent: {}
+[5.363855] (rvr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rvr_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.386741] (-) TimerEvent: {}
+[5.405626] (rvr_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rvr_msgs/msg/vector3__type_support.cpp.o\x1b[0m\n'}
+[5.423759] (rvr_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rvr_msgs/msg/command_velocities__type_support.cpp.o\x1b[0m\n'}
+[5.490532] (-) TimerEvent: {}
+[5.621847] (-) TimerEvent: {}
+[5.727387] (-) TimerEvent: {}
+[5.832688] (-) TimerEvent: {}
+[5.936673] (-) TimerEvent: {}
+[6.073366] (-) TimerEvent: {}
+[6.089869] (rvr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rvr_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.162331] (rvr_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rvr_msgs/msg/detail/command_velocities__type_support.cpp.o\x1b[0m\n'}
+[6.178703] (-) TimerEvent: {}
+[6.284666] (-) TimerEvent: {}
+[6.295658] (rvr_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rvr_msgs/msg/detail/vector3__type_support.cpp.o\x1b[0m\n'}
+[6.382298] (rvr_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rvr_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.420445] (-) TimerEvent: {}
+[6.486200] (rvr_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rvr_msgs/msg/wheel4__type_support.cpp.o\x1b[0m\n'}
+[6.498332] (rvr_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/dds_fastrtps/command_velocities__type_support.cpp.o\x1b[0m\n'}
+[6.540474] (-) TimerEvent: {}
+[6.654472] (-) TimerEvent: {}
+[6.773409] (-) TimerEvent: {}
+[6.886132] (-) TimerEvent: {}
+[6.987797] (-) TimerEvent: {}
+[7.090585] (-) TimerEvent: {}
+[7.207357] (-) TimerEvent: {}
+[7.352588] (-) TimerEvent: {}
+[7.471191] (-) TimerEvent: {}
+[7.475579] (rvr_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rvr_msgs/msg/rover_data__type_support.cpp.o\x1b[0m\n'}
+[7.506824] (rvr_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/dds_fastrtps/vector3__type_support.cpp.o\x1b[0m\n'}
+[7.580040] (-) TimerEvent: {}
+[7.647647] (rvr_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rvr_msgs/msg/detail/wheel4__type_support.cpp.o\x1b[0m\n'}
+[7.680550] (-) TimerEvent: {}
+[7.706426] (rvr_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_typesupport_cpp/rvr_msgs/msg/rover_data__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[7.707123] (rvr_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_cpp/rvr_msgs/msg/detail/rover_data__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg/msg/detail/wheel4__struct.hpp: No such file or directory\n'}
+[7.708474] (rvr_msgs) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"msg/msg/detail/wheel4__struct.hpp"\x1b[m\x1b[K\n'}
+[7.708764] (rvr_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.709003] (rvr_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[7.713639] (rvr_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/build.make:144: CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rvr_msgs/msg/rover_data__type_support.cpp.o] Error 1\n'}
+[7.714104] (rvr_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[7.742928] (rvr_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rvr_msgs/msg/detail/rover_data__type_support.cpp.o\x1b[0m\n'}
+[7.785238] (-) TimerEvent: {}
+[7.899430] (-) TimerEvent: {}
+[7.948755] (rvr_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_typesupport_introspection_cpp/rvr_msgs/msg/detail/rover_data__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[7.949208] (rvr_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_cpp/rvr_msgs/msg/detail/rover_data__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg/msg/detail/wheel4__struct.hpp: No such file or directory\n'}
+[7.955059] (rvr_msgs) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"msg/msg/detail/wheel4__struct.hpp"\x1b[m\x1b[K\n'}
+[7.955491] (rvr_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.956477] (rvr_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[7.958312] (rvr_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:161: CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rvr_msgs/msg/detail/rover_data__type_support.cpp.o] Error 1\n'}
+[7.958720] (rvr_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[7.988069] (rvr_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/dds_fastrtps/wheel4__type_support.cpp.o\x1b[0m\n'}
+[8.002596] (rvr_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/dds_fastrtps/rover_data__type_support.cpp.o\x1b[0m\n'}
+[8.003113] (-) TimerEvent: {}
+[8.105448] (-) TimerEvent: {}
+[8.196130] (rvr_msgs) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/rover_data__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[8.205029] (rvr_msgs) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/dds_fastrtps/rover_data__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[8.207113] (-) TimerEvent: {}
+[8.208379] (rvr_msgs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_cpp/rvr_msgs/msg/detail/rover_data__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg/msg/detail/wheel4__struct.hpp: No such file or directory\n'}
+[8.209927] (rvr_msgs) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"msg/msg/detail/wheel4__struct.hpp"\x1b[m\x1b[K\n'}
+[8.211191] (rvr_msgs) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.212442] (rvr_msgs) StderrLine: {'line': b'compilation terminated.\n'}
+[8.213715] (rvr_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:161: CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/dds_fastrtps/rover_data__type_support.cpp.o] Error 1\n'}
+[8.215031] (rvr_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[8.309623] (-) TimerEvent: {}
+[8.414781] (-) TimerEvent: {}
+[8.519882] (-) TimerEvent: {}
+[8.629354] (-) TimerEvent: {}
+[8.743285] (-) TimerEvent: {}
+[8.753825] (rvr_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[8.844786] (-) TimerEvent: {}
+[8.947255] (-) TimerEvent: {}
+[9.048327] (-) TimerEvent: {}
+[9.076518] (rvr_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[9.078615] (rvr_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.091088] (rvr_msgs) CommandEnded: {'returncode': 2}
+[9.142954] (rvr_msgs) JobEnded: {'identifier': 'rvr_msgs', 'rc': 2}
+[9.149467] (-) TimerEvent: {}
+[9.156692] (-) EventReactorShutdown: {}

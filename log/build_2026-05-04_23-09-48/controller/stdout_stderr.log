@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target rc_pub[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rc_pub.dir/src/usb_interface_lib.cpp.o[0m
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:[m[K In member function ‘[01m[Kvoid usbInterface::parseData(std::string)[m[K’:
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:128:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  128 |     return [01;31m[Kmessage[m[K;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:92:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kline[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   92 | void usbInterface::parseData([01;35m[Kstd::string line[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:[m[K At global scope:
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:139:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kline_data[m[K’ was not declared in this scope
+  139 |     float vxl = strtod([01;31m[Kline_data[m[K[0], NULL) * 10e-3;
+      |                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:142:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kline_data[m[K’ was not declared in this scope
+  142 |     float vyr = strtod([01;31m[Kline_data[m[K[3], NULL) * 10e-3;
+      |                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:145:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kline_data[m[K’ was not declared in this scope
+  145 |     float encl = strtod([01;31m[Kline_data[m[K[4], NULL) * 10e-3;
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:146:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kline_data[m[K’ was not declared in this scope
+  146 |     float encr = strtod([01;31m[Kline_data[m[K[5], NULL) * 10e-3;
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:153:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ at top level
+  153 |     float vr = u_speed + 0.5 * [01;31m[Kthis[m[K->W * u_steer;
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:154:32:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ at top level
+  154 |     float vl = u_speed - 0.5 * [01;31m[Kthis[m[K->W * u_steer;
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:157:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+  157 |     [01;31m[Kthis[m[K->v1 = vr;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:158:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+  158 |     [01;31m[Kthis[m[K->v2 = vr;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:159:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+  159 |     [01;31m[Kthis[m[K->v3 = vl;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:160:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+  160 |     [01;31m[Kthis[m[K->v4 = vl;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:161:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  161 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/rc_pub.dir/build.make:104: CMakeFiles/rc_pub.dir/src/usb_interface_lib.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rc_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

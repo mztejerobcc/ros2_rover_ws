@@ -1,0 +1,13 @@
+[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/cmd_vel_sub_main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krvr_files/cmd_vel_sub_lib.hpp: No such file or directory
+    1 | #include [01;31m[K"rvr_files/cmd_vel_sub_lib.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/cmd_vel_sub_lib.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krvr_files/cmd_vel_sub_lib.hpp: No such file or directory
+    1 | #include [01;31m[K"rvr_files/cmd_vel_sub_lib.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cmd_vel_sub.dir/build.make:90: CMakeFiles/cmd_vel_sub.dir/src/cmd_vel_sub_main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/cmd_vel_sub.dir/build.make:76: CMakeFiles/cmd_vel_sub.dir/src/cmd_vel_sub_lib.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cmd_vel_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

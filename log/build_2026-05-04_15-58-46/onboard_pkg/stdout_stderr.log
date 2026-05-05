@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target rvr_data_pub[0m
+[ 42%] Built target cmd_vel_sub
+[ 57%] [32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o[0m
+[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:[m[K In constructor ‘[01m[KrvrUsbInterface::rvrUsbInterface()[m[K’:
+[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:6:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K.[m[K’ token
+    6 |                         ax(0.00), ay(0.00), az(0.00)[01;31m[K.[m[K
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:[m[K At global scope:
+[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:6:53:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+gmake[2]: *** [CMakeFiles/rvr_data_pub.dir/build.make:104: CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rvr_data_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

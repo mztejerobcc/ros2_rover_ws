@@ -1,0 +1,220 @@
+[ 11%] Built target rvr_msgs__rosidl_generator_c
+[ 12%] Built target rvr_msgs__cpp
+[ 12%] Built target ament_cmake_python_copy_rvr_msgs
+[ 23%] Built target rvr_msgs__rosidl_typesupport_c
+[ 44%] Built target rvr_msgs__rosidl_typesupport_fastrtps_c
+[ 46%] Built target rvr_msgs__rosidl_typesupport_introspection_c
+[ 57%] Built target rvr_msgs__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target rvr_msgs__rosidl_typesupport_cpp
+[ 79%] Built target rvr_msgs__rosidl_typesupport_introspection_cpp
+[ 79%] Built target rvr_msgs
+[ 80%] Built target rvr_msgs__py
+[ 90%] Built target rvr_msgs__rosidl_generator_py
+[ 93%] Built target rvr_msgs__rosidl_typesupport_c__pyext
+[ 96%] Built target rvr_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target rvr_msgs__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing rvr_msgs.egg-info/PKG-INFO
+writing dependency_links to rvr_msgs.egg-info/dependency_links.txt
+writing top-level names to rvr_msgs.egg-info/top_level.txt
+reading manifest file 'rvr_msgs.egg-info/SOURCES.txt'
+writing manifest file 'rvr_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_rvr_msgs_egg
+-- Install configuration: ""
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/ament_index/resource_index/rosidl_interfaces/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rover_data.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/vector3.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/wheel4.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__type_support.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__functions.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__struct.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__struct.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__struct.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__functions.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__functions.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__type_support.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__struct.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__functions.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__functions.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__functions.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__functions.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__struct.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__functions.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__type_support.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__functions.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__functions.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__type_support.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__type_support.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/command_velocities.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/pos_data.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/library_path.sh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/library_path.dsv
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__type_support.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__type_support.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__type_support.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__type_support.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__type_support.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/vector3.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/pos_data.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/wheel4.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__builder.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__type_support.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__traits.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__type_support.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__traits.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__type_support.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__builder.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__builder.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__struct.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__struct.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__traits.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__struct.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__traits.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__type_support.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__struct.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__builder.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__builder.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__type_support.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__traits.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__struct.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/command_velocities.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rover_data.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/dds_fastrtps
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__type_support.cpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/wheel4__type_support.cpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__type_support.cpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/vector3__type_support.cpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/rover_data__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__type_support.cpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/pos_data__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/pythonpath.sh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/pythonpath.dsv
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info
+-- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_vector3.py
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_wheel4_s.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_command_velocities_s.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/__init__.py
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_rover_data.py
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_pos_data_s.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_wheel4.py
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_command_velocities.py
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_rover_data_s.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_vector3_s.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_pos_data.py
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/__init__.py
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/librvr_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/_rvr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/_rvr_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/_rvr_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs'...
+Listing '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg'...
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/CommandVelocities.idl
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/Vector3.idl
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/Wheel4.idl
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/RoverData.idl
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/PosData.idl
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/CommandVelocities.msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/Vector3.msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/Wheel4.msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/RoverData.msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/PosData.msg
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/ament_index/resource_index/package_run_dependencies/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/ament_index/resource_index/parent_prefix_path/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/path.sh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/path.dsv
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/local_setup.bash
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/local_setup.sh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/local_setup.zsh
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/local_setup.dsv
+-- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.dsv
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/ament_index/resource_index/packages/rvr_msgs
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgsConfig.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgsConfig-version.cmake
+-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.xml

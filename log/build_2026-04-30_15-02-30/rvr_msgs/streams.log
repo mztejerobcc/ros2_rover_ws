@@ -1,0 +1,227 @@
+[0.054s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake /home/mztejero/rvr_ros2_ws/src/rvr_msgs -DCMAKE_INSTALL_PREFIX=/home/mztejero/rvr_ros2_ws/install/rvr_msgs
+[0.469s] -- The C compiler identification is GNU 11.4.0
+[0.692s] -- The CXX compiler identification is GNU 11.4.0
+[0.704s] -- Detecting C compiler ABI info
+[0.956s] -- Detecting C compiler ABI info - done
+[0.976s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.977s] -- Detecting C compile features
+[0.977s] -- Detecting C compile features - done
+[0.993s] -- Detecting CXX compiler ABI info
+[1.212s] -- Detecting CXX compiler ABI info - done
+[1.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.244s] -- Detecting CXX compile features
+[1.246s] -- Detecting CXX compile features - done
+[1.253s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.684s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.000s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.008s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.024s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.858s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.329s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.789s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.791s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.839s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.839s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.840s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.840s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.882s] -- Found PythonExtra: .so  
+[3.948s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.977s] -- Added test 'lint_cmake' to check CMake code style
+[3.980s] -- Added test 'xmllint' to check XML markup files
+[3.985s] -- Configuring done
+[4.049s] -- Generating done
+[4.070s] -- Build files have been written to: /home/mztejero/rvr_ros2_ws/build/rvr_msgs
+[4.081s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake /home/mztejero/rvr_ros2_ws/src/rvr_msgs -DCMAKE_INSTALL_PREFIX=/home/mztejero/rvr_ros2_ws/install/rvr_msgs
+[4.084s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/rvr_msgs -- -j4 -l4
+[4.170s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.198s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.226s] [  6%] Built target ament_cmake_python_copy_rvr_msgs
+[4.993s] [  6%] Built target rvr_msgs__cpp
+[5.006s] running egg_info
+[5.013s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.016s] creating rvr_msgs.egg-info
+[5.016s] writing rvr_msgs.egg-info/PKG-INFO
+[5.017s] writing dependency_links to rvr_msgs.egg-info/dependency_links.txt
+[5.017s] writing top-level names to rvr_msgs.egg-info/top_level.txt
+[5.023s] writing manifest file 'rvr_msgs.egg-info/SOURCES.txt'
+[5.037s] reading manifest file 'rvr_msgs.egg-info/SOURCES.txt'
+[5.037s] writing manifest file 'rvr_msgs.egg-info/SOURCES.txt'
+[5.055s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.076s] [ 16%] [32mBuilding C object CMakeFiles/rvr_msgs__rosidl_generator_c.dir/rosidl_generator_c/rvr_msgs/msg/detail/command_velocities__functions.c.o[0m
+[5.129s] [ 16%] Built target ament_cmake_python_build_rvr_msgs_egg
+[5.168s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.227s] [ 22%] [32m[1mLinking C shared library librvr_msgs__rosidl_generator_c.so[0m
+[5.353s] [ 22%] Built target rvr_msgs__rosidl_generator_c
+[5.377s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.859s] [ 29%] [32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rvr_msgs/msg/command_velocities__type_support.cpp.o[0m
+[5.899s] [ 32%] [32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/dds_fastrtps/command_velocities__type_support.cpp.o[0m
+[5.969s] [ 35%] [32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rvr_msgs/msg/detail/command_velocities__type_support.cpp.o[0m
+[6.353s] [ 38%] [32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rvr_msgs/msg/detail/command_velocities__type_support_c.cpp.o[0m
+[7.267s] [ 41%] [32m[1mLinking CXX shared library librvr_msgs__rosidl_typesupport_cpp.so[0m
+[7.422s] [ 41%] Built target rvr_msgs__rosidl_typesupport_cpp
+[7.461s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.059s] [ 48%] [32m[1mLinking CXX shared library librvr_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.166s] [ 51%] [32m[1mLinking CXX shared library librvr_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.239s] [ 54%] [32m[1mLinking CXX shared library librvr_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.345s] [ 54%] Built target rvr_msgs__rosidl_typesupport_introspection_cpp
+[8.380s] [ 54%] Built target rvr_msgs__rosidl_typesupport_fastrtps_cpp
+[8.394s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.487s] [ 61%] [32mBuilding C object CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rvr_msgs/msg/detail/command_velocities__type_support.c.o[0m
+[8.497s] [ 61%] Built target rvr_msgs__rosidl_typesupport_fastrtps_c
+[8.561s] [ 64%] [32m[1mLinking C shared library librvr_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.617s] [ 64%] Built target rvr_msgs__rosidl_typesupport_introspection_c
+[8.909s] [ 67%] [32mBuilding CXX object CMakeFiles/rvr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rvr_msgs/msg/command_velocities__type_support.cpp.o[0m
+[8.968s] [ 70%] [32m[1mLinking CXX shared library librvr_msgs__rosidl_typesupport_c.so[0m
+[9.054s] [ 70%] Built target rvr_msgs__rosidl_typesupport_c
+[9.096s] [ 70%] Built target rvr_msgs
+[9.139s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.793s] [ 74%] Built target rvr_msgs__py
+[9.830s] [ 77%] [32mBuilding C object CMakeFiles/rvr_msgs__rosidl_generator_py.dir/rosidl_generator_py/rvr_msgs/msg/_command_velocities_s.c.o[0m
+[10.012s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rvr_msgs/librvr_msgs__rosidl_generator_py.so[0m
+[10.081s] [ 80%] Built target rvr_msgs__rosidl_generator_py
+[10.126s] [ 83%] [32mBuilding C object CMakeFiles/rvr_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rvr_msgs/_rvr_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.127s] [ 87%] [32mBuilding C object CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rvr_msgs/_rvr_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.129s] [ 90%] [32mBuilding C object CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rvr_msgs/_rvr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.370s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rvr_msgs/rvr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.370s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rvr_msgs/rvr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.371s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rvr_msgs/rvr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.444s] [100%] Built target rvr_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.445s] [100%] Built target rvr_msgs__rosidl_typesupport_introspection_c__pyext
+[10.445s] [100%] Built target rvr_msgs__rosidl_typesupport_c__pyext
+[10.469s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/rvr_msgs -- -j4 -l4
+[10.474s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/rvr_msgs
+[10.487s] -- Install configuration: ""
+[10.488s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/ament_index/resource_index/rosidl_interfaces/rvr_msgs
+[10.489s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+[10.490s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+[10.490s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+[10.491s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__struct.h
+[10.491s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__type_support.h
+[10.491s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__functions.c
+[10.492s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__functions.h
+[10.492s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/command_velocities.h
+[10.493s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.495s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/library_path.sh
+[10.495s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/library_path.dsv
+[10.497s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_generator_c.so
+[10.498s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_generator_c.so" to ""
+[10.498s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+[10.499s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+[10.499s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+[10.499s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__rosidl_typesupport_fastrtps_c.h
+[10.500s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.504s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_fastrtps_c.so
+[10.506s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.506s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+[10.508s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+[10.509s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+[10.509s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__rosidl_typesupport_introspection_c.h
+[10.510s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__type_support.c
+[10.510s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.511s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_introspection_c.so
+[10.512s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.513s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_c.so
+[10.513s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_c.so" to ""
+[10.513s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+[10.513s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+[10.514s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+[10.514s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__type_support.hpp
+[10.514s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__builder.hpp
+[10.515s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__traits.hpp
+[10.515s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__struct.hpp
+[10.515s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/command_velocities.hpp
+[10.515s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.516s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+[10.516s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+[10.516s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+[10.516s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__rosidl_typesupport_fastrtps_cpp.hpp
+[10.517s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/dds_fastrtps
+[10.517s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.517s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.517s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.517s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs
+[10.518s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg
+[10.518s] -- Up-to-date: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail
+[10.518s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__type_support.cpp
+[10.519s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/include/rvr_msgs/rvr_msgs/msg/detail/command_velocities__rosidl_typesupport_introspection_cpp.hpp
+[10.519s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_introspection_cpp.so
+[10.520s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.520s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_cpp.so
+[10.521s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_typesupport_cpp.so" to ""
+[10.521s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/pythonpath.sh
+[10.522s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/pythonpath.dsv
+[10.523s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info
+[10.523s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[10.524s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.524s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[10.524s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.525s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs
+[10.526s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg
+[10.526s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_command_velocities_s.c
+[10.527s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/__init__.py
+[10.528s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_command_velocities.py
+[10.528s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/__init__.py
+[10.528s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/librvr_msgs__rosidl_generator_py.so
+[10.528s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/_rvr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.529s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/_rvr_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.529s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.530s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/_rvr_msgs_s.ep.rosidl_typesupport_c.c
+[10.530s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.530s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.594s] Listing '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs'...
+[10.594s] Compiling '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/__init__.py'...
+[10.594s] Listing '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg'...
+[10.594s] Compiling '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/__init__.py'...
+[10.594s] Compiling '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/msg/_command_velocities.py'...
+[10.603s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.604s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.604s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.604s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.605s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.606s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages/rvr_msgs/rvr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.606s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_generator_py.so
+[10.607s] -- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib/librvr_msgs__rosidl_generator_py.so" to ""
+[10.608s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/CommandVelocities.idl
+[10.608s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/msg/CommandVelocities.msg
+[10.609s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/ament_index/resource_index/package_run_dependencies/rvr_msgs
+[10.609s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/ament_index/resource_index/parent_prefix_path/rvr_msgs
+[10.609s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/ament_prefix_path.sh
+[10.610s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/ament_prefix_path.dsv
+[10.612s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/path.sh
+[10.612s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/environment/path.dsv
+[10.612s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/local_setup.bash
+[10.612s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/local_setup.sh
+[10.613s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/local_setup.zsh
+[10.613s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/local_setup.dsv
+[10.614s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.dsv
+[10.614s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/ament_index/resource_index/packages/rvr_msgs
+[10.615s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_cExport.cmake
+[10.615s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.617s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.617s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.617s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.617s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.618s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_cExport.cmake
+[10.619s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.620s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_cppExport.cmake
+[10.622s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.622s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.622s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.622s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.622s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_cppExport.cmake
+[10.622s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.623s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_pyExport.cmake
+[10.624s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/export_rvr_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.625s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rosidl_cmake-extras.cmake
+[10.625s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.625s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.625s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.626s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.627s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.628s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.628s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgsConfig.cmake
+[10.628s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake/rvr_msgsConfig-version.cmake
+[10.629s] -- Installing: /home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/package.xml
+[10.636s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/rvr_msgs

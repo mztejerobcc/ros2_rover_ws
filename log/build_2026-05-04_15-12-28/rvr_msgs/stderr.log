@@ -1,0 +1,35 @@
+In file included from [01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_c/rvr_msgs/msg/detail/rover_data__functions.h:19[m[K,
+                 from [01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_c/rvr_msgs/msg/detail/rover_data__functions.c:4[m[K:
+[01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_c/rvr_msgs/msg/detail/rover_data__struct.h:23:10:[m[K [01;31m[Kfatal error: [m[Kmsg/msg/detail/wheel4__struct.h: No such file or directory
+   23 | #include [01;31m[K"msg/msg/detail/wheel4__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rvr_msgs__rosidl_generator_c.dir/build.make:211: CMakeFiles/rvr_msgs__rosidl_generator_c.dir/rosidl_generator_c/rvr_msgs/msg/detail/rover_data__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/rvr_msgs__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_typesupport_cpp/rvr_msgs/msg/rover_data__type_support.cpp:7[m[K:
+[01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_cpp/rvr_msgs/msg/detail/rover_data__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kmsg/msg/detail/wheel4__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"msg/msg/detail/wheel4__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/build.make:144: CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rvr_msgs/msg/rover_data__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/rvr_msgs__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_typesupport_introspection_cpp/rvr_msgs/msg/detail/rover_data__type_support.cpp:12[m[K:
+[01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_cpp/rvr_msgs/msg/detail/rover_data__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kmsg/msg/detail/wheel4__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"msg/msg/detail/wheel4__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:161: CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rvr_msgs/msg/detail/rover_data__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/rover_data__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/dds_fastrtps/rover_data__type_support.cpp:4[m[K:
+[01m[K/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_generator_cpp/rvr_msgs/msg/detail/rover_data__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kmsg/msg/detail/wheel4__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"msg/msg/detail/wheel4__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:161: CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rvr_msgs/msg/detail/dds_fastrtps/rover_data__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/rvr_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/rvr_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

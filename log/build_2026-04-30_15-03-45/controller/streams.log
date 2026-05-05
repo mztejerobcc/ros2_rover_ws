@@ -1,0 +1,23 @@
+[0.073s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/controller': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/rvr_ros2_ws/install/rvr_files:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/controller -- -j4 -l4
+[0.197s] [ 25%] [32mBuilding CXX object CMakeFiles/rc_pub.dir/src/rc_pub_main.cpp.o[0m
+[0.202s] [ 50%] [32mBuilding CXX object CMakeFiles/rc_pub.dir/src/rc_pub_lib.cpp.o[0m
+[0.203s] [ 75%] [32mBuilding CXX object CMakeFiles/rc_pub.dir/src/usb_interface_lib.cpp.o[0m
+[0.219s] [01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/rc_pub_main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krvr_files/rc_pub_lib.hpp: No such file or directory
+[0.219s]     1 | #include [01;31m[K"rvr_files/rc_pub_lib.hpp"[m[K
+[0.219s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.222s] compilation terminated.
+[0.224s] gmake[2]: *** [CMakeFiles/rc_pub.dir/build.make:90: CMakeFiles/rc_pub.dir/src/rc_pub_main.cpp.o] Error 1
+[0.224s] gmake[2]: *** Waiting for unfinished jobs....
+[0.230s] [01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/usb_interface_lib.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krvr_files/usb_interface_lib.hpp: No such file or directory
+[0.231s]     1 | #include [01;31m[K"rvr_files/usb_interface_lib.hpp"[m[K
+[0.232s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.232s] compilation terminated.
+[0.232s] gmake[2]: *** [CMakeFiles/rc_pub.dir/build.make:104: CMakeFiles/rc_pub.dir/src/usb_interface_lib.cpp.o] Error 1
+[0.248s] [01m[K/home/mztejero/rvr_ros2_ws/src/controller/src/rc_pub_lib.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krvr_files/rc_pub_lib.hpp: No such file or directory
+[0.249s]     1 | #include [01;31m[K"rvr_files/rc_pub_lib.hpp"[m[K
+[0.249s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.249s] compilation terminated.
+[0.250s] gmake[2]: *** [CMakeFiles/rc_pub.dir/build.make:76: CMakeFiles/rc_pub.dir/src/rc_pub_lib.cpp.o] Error 1
+[0.251s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rc_pub.dir/all] Error 2
+[0.253s] gmake: *** [Makefile:146: all] Error 2
+[0.257s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/controller' returned '2': CMAKE_PREFIX_PATH=/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/rvr_ros2_ws/install/rvr_files:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/controller -- -j4 -l4

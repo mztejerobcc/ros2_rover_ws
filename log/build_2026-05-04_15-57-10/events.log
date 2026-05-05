@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.002956] (-) JobUnselected: {'identifier': 'controller'}
+[0.003683] (-) JobUnselected: {'identifier': 'data_processor'}
+[0.003905] (-) JobUnselected: {'identifier': 'rvr_msgs'}
+[0.005352] (-) JobUnselected: {'identifier': 'visualization'}
+[0.005681] (onboard_pkg) JobQueued: {'identifier': 'onboard_pkg', 'dependencies': OrderedDict([('rvr_msgs', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs')])}
+[0.005836] (onboard_pkg) JobStarted: {'identifier': 'onboard_pkg'}
+[0.037509] (onboard_pkg) JobProgress: {'identifier': 'onboard_pkg', 'progress': 'cmake'}
+[0.044031] (onboard_pkg) JobProgress: {'identifier': 'onboard_pkg', 'progress': 'build'}
+[0.045054] (onboard_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mztejero/rvr_ros2_ws/build/onboard_pkg', '--', '-j4', '-l4'], 'cwd': '/home/mztejero/rvr_ros2_ws/build/onboard_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mztejero'), ('SSH_CLIENT', '192.168.64.1 62095 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib:/home/mztejero/ros2_ws/install/rover_msg/lib:/home/mztejero/rover_ws/install/msg_types/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mztejero'), ('OLDPWD', '/home/mztejero'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install:/home/mztejero/ros2_ws/install:/home/mztejero/rover_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mztejero'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mztejero/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/hardware_interface:/home/mztejero/rover_ws/install/msg_types:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mztejero/rvr_ros2_ws/build/onboard_pkg'), ('SSH_CONNECTION', '192.168.64.1 62095 192.168.64.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages:/home/mztejero/ros2_ws/install/rover_msg/local/lib/python3.10/dist-packages:/home/mztejero/rover_ws/build/hardware_interface:/home/mztejero/rover_ws/install/hardware_interface/lib/python3.10/site-packages:/home/mztejero/rover_ws/install/msg_types/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/data_processor:/home/mztejero/ros2_ws/install/cpp_pubsub:/home/mztejero/ros2_ws/install/rover_msg:/home/mztejero/rover_ws/install/rvr_launch:/home/mztejero/rover_ws/install/msg_types:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble')]), 'shell': False}
+[0.094244] (-) TimerEvent: {}
+[0.176803] (onboard_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197125] (-) TimerEvent: {}
+[0.299251] (-) TimerEvent: {}
+[0.400698] (-) TimerEvent: {}
+[0.475133] (onboard_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.501342] (-) TimerEvent: {}
+[0.538151] (onboard_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.544055] (onboard_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.557665] (onboard_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.578144] (onboard_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.603128] (-) TimerEvent: {}
+[0.603804] (onboard_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.677924] (onboard_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.681557] (onboard_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.704512] (-) TimerEvent: {}
+[0.807021] (-) TimerEvent: {}
+[0.898818] (onboard_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.907862] (-) TimerEvent: {}
+[1.010014] (-) TimerEvent: {}
+[1.033812] (onboard_pkg) StdoutLine: {'line': b'-- Found rvr_msgs: 0.0.0 (/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake)\n'}
+[1.079176] (onboard_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.110810] (-) TimerEvent: {}
+[1.212866] (-) TimerEvent: {}
+[1.220599] (onboard_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.221411] (onboard_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mztejero/rvr_ros2_ws/src/onboard_pkg/include\n'}
+[1.221663] (onboard_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.222796] (onboard_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.226271] (onboard_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.227415] (onboard_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.229246] (onboard_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.231101] (onboard_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.419003] (-) TimerEvent: {}
+[1.456851] (onboard_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.483734] (onboard_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/mztejero/rvr_ros2_ws/build/onboard_pkg\n'}
+[1.522576] (-) TimerEvent: {}
+[1.551263] (onboard_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_vel_sub\x1b[0m\n'}
+[1.554508] (onboard_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rvr_data_pub\x1b[0m\n'}
+[1.618811] (onboard_pkg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o\x1b[0m\n'}
+[1.624167] (onboard_pkg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_data_pub_lib.cpp.o\x1b[0m\n'}
+[1.624593] (-) TimerEvent: {}
+[1.634000] (onboard_pkg) StdoutLine: {'line': b'[ 71%] Built target cmd_vel_sub\n'}
+[1.637372] (onboard_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_data_pub_main.cpp.o\x1b[0m\n'}
+[1.725664] (-) TimerEvent: {}
+[1.833834] (-) TimerEvent: {}
+[1.963408] (-) TimerEvent: {}
+[2.124643] (-) TimerEvent: {}
+[2.226190] (-) TimerEvent: {}
+[2.331876] (-) TimerEvent: {}
+[2.446684] (-) TimerEvent: {}
+[2.564868] (-) TimerEvent: {}
+[2.642874] (onboard_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KrvrUsbInterface::rvrUsbInterface()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.643352] (onboard_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:3:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KrvrUsbInterface\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[KW\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.643649] (onboard_pkg) StderrLine: {'line': b'    3 | rvrUsbInterface::rvrUsbInterface() : device("/dev/ttyUSB0"), \x1b[01;31m\x1b[KW\x1b[m\x1b[K(16e-2), v1(0.00), v2(0.00), v3(0.00), v4(0.00) {\n'}
+[2.643924] (onboard_pkg) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.672097] (-) TimerEvent: {}
+[2.774334] (-) TimerEvent: {}
+[2.779131] (onboard_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rvr_data_pub.dir/build.make:104: CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o] Error 1\n'}
+[2.782301] (onboard_pkg) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.878494] (-) TimerEvent: {}
+[2.981817] (-) TimerEvent: {}
+[3.083839] (-) TimerEvent: {}
+[3.185556] (-) TimerEvent: {}
+[3.286612] (-) TimerEvent: {}
+[3.388578] (-) TimerEvent: {}
+[3.490071] (-) TimerEvent: {}
+[3.592286] (-) TimerEvent: {}
+[3.697318] (-) TimerEvent: {}
+[3.802238] (-) TimerEvent: {}
+[3.907011] (-) TimerEvent: {}
+[4.011906] (-) TimerEvent: {}
+[4.114934] (-) TimerEvent: {}
+[4.217061] (-) TimerEvent: {}
+[4.323515] (-) TimerEvent: {}
+[4.428302] (-) TimerEvent: {}
+[4.532492] (-) TimerEvent: {}
+[4.638950] (-) TimerEvent: {}
+[4.743259] (-) TimerEvent: {}
+[4.846113] (-) TimerEvent: {}
+[4.950864] (-) TimerEvent: {}
+[5.055015] (-) TimerEvent: {}
+[5.171318] (-) TimerEvent: {}
+[5.274046] (-) TimerEvent: {}
+[5.375423] (-) TimerEvent: {}
+[5.477875] (-) TimerEvent: {}
+[5.580401] (-) TimerEvent: {}
+[5.681808] (-) TimerEvent: {}
+[5.783674] (-) TimerEvent: {}
+[5.885898] (-) TimerEvent: {}
+[5.987888] (-) TimerEvent: {}
+[6.089688] (-) TimerEvent: {}
+[6.192324] (-) TimerEvent: {}
+[6.294007] (-) TimerEvent: {}
+[6.396186] (-) TimerEvent: {}
+[6.497958] (-) TimerEvent: {}
+[6.600098] (-) TimerEvent: {}
+[6.701845] (-) TimerEvent: {}
+[6.803460] (-) TimerEvent: {}
+[6.905733] (-) TimerEvent: {}
+[7.008186] (-) TimerEvent: {}
+[7.110332] (-) TimerEvent: {}
+[7.212722] (-) TimerEvent: {}
+[7.314467] (-) TimerEvent: {}
+[7.417070] (-) TimerEvent: {}
+[7.519837] (-) TimerEvent: {}
+[7.622105] (-) TimerEvent: {}
+[7.724522] (-) TimerEvent: {}
+[7.827914] (-) TimerEvent: {}
+[7.931506] (-) TimerEvent: {}
+[8.034052] (-) TimerEvent: {}
+[8.135583] (-) TimerEvent: {}
+[8.246941] (-) TimerEvent: {}
+[8.348985] (-) TimerEvent: {}
+[8.450097] (-) TimerEvent: {}
+[8.551158] (-) TimerEvent: {}
+[8.652712] (-) TimerEvent: {}
+[8.755021] (-) TimerEvent: {}
+[8.856974] (-) TimerEvent: {}
+[8.967008] (-) TimerEvent: {}
+[9.068453] (-) TimerEvent: {}
+[9.178808] (-) TimerEvent: {}
+[9.280617] (-) TimerEvent: {}
+[9.382836] (-) TimerEvent: {}
+[9.484156] (-) TimerEvent: {}
+[9.585923] (-) TimerEvent: {}
+[9.688022] (-) TimerEvent: {}
+[9.789123] (-) TimerEvent: {}
+[9.891013] (-) TimerEvent: {}
+[9.994051] (-) TimerEvent: {}
+[10.195160] (-) TimerEvent: {}
+[10.296965] (-) TimerEvent: {}
+[10.399461] (-) TimerEvent: {}
+[10.501445] (-) TimerEvent: {}
+[10.603511] (-) TimerEvent: {}
+[10.705204] (-) TimerEvent: {}
+[10.807054] (-) TimerEvent: {}
+[10.909141] (-) TimerEvent: {}
+[11.010871] (-) TimerEvent: {}
+[11.112914] (-) TimerEvent: {}
+[11.214687] (-) TimerEvent: {}
+[11.316502] (-) TimerEvent: {}
+[11.418715] (-) TimerEvent: {}
+[11.520040] (-) TimerEvent: {}
+[11.622193] (-) TimerEvent: {}
+[11.723624] (-) TimerEvent: {}
+[11.824769] (-) TimerEvent: {}
+[11.926616] (-) TimerEvent: {}
+[12.028018] (-) TimerEvent: {}
+[12.129779] (-) TimerEvent: {}
+[12.231904] (-) TimerEvent: {}
+[12.332723] (-) TimerEvent: {}
+[12.434550] (-) TimerEvent: {}
+[12.535560] (-) TimerEvent: {}
+[12.638326] (-) TimerEvent: {}
+[12.685750] (onboard_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rvr_data_pub.dir/all] Error 2\n'}
+[12.687932] (onboard_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.695261] (onboard_pkg) CommandEnded: {'returncode': 2}
+[12.739721] (onboard_pkg) JobEnded: {'identifier': 'onboard_pkg', 'rc': 2}
+[12.741862] (-) TimerEvent: {}
+[12.753626] (-) EventReactorShutdown: {}

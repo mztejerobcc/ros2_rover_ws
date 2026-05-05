@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target rc_pub[0m
+[100%] Built target rc_pub
+-- Install configuration: ""
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/lib/controller/rc_pub
+-- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/controller/lib/controller/rc_pub" to ""
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/environment/ament_prefix_path.sh
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/environment/ament_prefix_path.dsv
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/environment/path.sh
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/environment/path.dsv
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/local_setup.bash
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/local_setup.sh
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/local_setup.zsh
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/local_setup.dsv
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.dsv
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/ament_index/resource_index/packages/controller
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/cmake/controllerConfig.cmake
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/cmake/controllerConfig-version.cmake
+-- Installing: /home/mztejero/rvr_ros2_ws/install/controller/share/controller/package.xml
