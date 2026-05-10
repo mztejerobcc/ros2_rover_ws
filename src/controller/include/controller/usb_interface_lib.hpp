@@ -28,17 +28,6 @@ class usbInterface {
         float v2;
         float v3;
         float v4;
-
-        // helper for parsing usb string into each rc input
-        enum state {
-            IDL,
-            VXL,
-            VYL,
-            VXR,
-            VYR,
-            ENCL,
-            ENCR
-        };
     
     public:
         usbInterface(); // constructor establishes connection to device through usb

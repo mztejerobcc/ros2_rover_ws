@@ -1,7 +1,0 @@
-[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:[m[K In member function ‘[01m[Kstd::string rvrUsbInterface::usbRead()[m[K’:
-[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:60:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
-   60 |     while (buffer[[01;31m[Ki[m[K] != '\n') {
-      |                   [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/rvr_data_pub.dir/build.make:104: CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/rvr_data_pub.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
