@@ -42,9 +42,12 @@ rvrUsbInterface::rvrUsbInterface() : device("/dev/ttyUSB0"),
 
 rvrUsbInterface::~rvrUsbInterface() {};
 
-void rvrUsbInterface::usbWrite(int x) {
-    int len_data = snprintf(this->data_to_send, sizeof(this->data_to_send), "Test message from Mac... %d\n", x);
-    std::cout << "writing to buffer: " << this->data_to_send << std::endl;
+void rvrUsbInterface::usbWrite() {
+    int len_data = snprintf(this->data_to_send,
+                            sizeof(this->data_to_send),
+                            "v:%f:%f:%f:%f\n",
+                            this->cmd_v1, this->cmd_v2, this->cmd_v3, this->cmd_v4);
+    // std::cout << "writing to buffer: " << this->data_to_send << std::endl;
     
     if (len_data > 0) {
         write(fd, this->data_to_send, sizeof(data_to_send));
@@ -156,6 +159,13 @@ void rvrUsbInterface::parseData(std::string line) {
     this->wy = strtod(line_data[12], NULL);
     this->wz = strtod(line_data[13], NULL);
 }
+
+ void rvrUsbInterface::setCmdVel(float vel1, float vel2, float vel3, float vel4) {
+    this->cmd_v1 = vel1;
+    this->cmd_v2 = vel2;
+    this->cmd_v3 = vel3;
+    this->cmd_v4 = vel4;
+ };
 
 float rvrUsbInterface::getRoverData(int i) {
     return this->rover_data[i];

@@ -13,7 +13,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rvr_msgs REQUIRED)
 
-add_executable(cmd_vel_sub src/cmd_vel_sub_lib.cpp src/cmd_vel_sub_main.cpp)
+add_executable(cmd_vel_sub src/cmd_vel_sub_lib.cpp src/cmd_vel_sub_main.cpp src/rvr_usb_interface_lib.cpp)
 ament_target_dependencies(cmd_vel_sub rclcpp rvr_msgs)
 target_include_directories(cmd_vel_sub PUBLIC include)
 
