@@ -21,7 +21,10 @@ class rvrUsbInterface {
         char message[sizeof(buffer)]; // maximum char's read from buffer.
 
         // Command velocities
-        // velocities for each motor
+        float cmd_v1, cmd_v2, cmd_v3, cmd_v4;
+
+        // Rover Data
+        // all data sent by rover
         float d1, d2, d3, d4;
         float v1, v2, v3, v4;
         float ax, ay, az;
@@ -33,10 +36,13 @@ class rvrUsbInterface {
         rvrUsbInterface(); // constructor establishes connection to device through usb
         ~rvrUsbInterface();
 
-        void usbWrite(int x); // writes data to device on usb (not used for rc)
+        void usbWrite(); // writes data to device on usb (not used for rc)
         std::string usbRead(); // returns data read from usb as a string
 
         void parseData(std::string line); // parses a string and updates the states
+
+        // setters for private member states
+        void setCmdVel(float vel1, float vel2, float vel3, float vel4);
 
         // getters for private member states
         float getRoverData(int i);

@@ -7,6 +7,8 @@ CmdVelSubscriber::CmdVelSubscriber() : Node("cmd_vel_subscriber") {
     "/cmd_velocities", 10, std::bind(&CmdVelSubscriber::topic_callback, this, _1));
   }
 
-void CmdVelSubscriber::topic_callback(const rvr_msgs::msg::CommandVelocities & msg) const {
+void CmdVelSubscriber::topic_callback(const rvr_msgs::msg::CommandVelocities & msg) {
+  serial.setCmdVel(msg.v1, msg.v2, msg.v3, msg.v4);
+  serial.usbWrite();
   RCLCPP_INFO(this->get_logger(), "Received: '%f, %f, %f, %f'", msg.v1, msg.v2, msg.v3, msg.v4);
 }
