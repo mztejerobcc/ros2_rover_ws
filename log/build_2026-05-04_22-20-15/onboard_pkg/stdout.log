@@ -1,3 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target rvr_data_pub[0m
-[ 42%] Built target cmd_vel_sub
-[ 57%] [32mBuilding CXX object CMakeFiles/rvr_data_pub.dir/src/rvr_usb_interface_lib.cpp.o[0m

@@ -1,4 +1,0 @@
-[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:[m[K In member function ‘[01m[Kstd::string rvrUsbInterface::usbRead()[m[K’:
-[01m[K/home/mztejero/rvr_ros2_ws/src/onboard_pkg/src/rvr_usb_interface_lib.cpp:62:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbytes_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-   62 |         ssize_t [01;35m[Kbytes_read[m[K = read(fd, buffer, sizeof(buffer) - 1);
-      |                 [01;35m[K^~~~~~~~~~[m[K

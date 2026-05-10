@@ -1,2 +1,0 @@
-Invoking command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/rvr_msgs -- -j4 -l4
-Invoked command in '/home/mztejero/rvr_ros2_ws/build/rvr_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mztejero/rover_ws/install/hardware_interface:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/rvr_msgs -- -j4 -l4
