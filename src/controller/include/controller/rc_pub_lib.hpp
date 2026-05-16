@@ -7,11 +7,12 @@
 #include "rclcpp/rclcpp.hpp"
 #include "controller/usb_interface_lib.hpp"
 
-#include "rvr_msgs/msg/command_velocities.hpp" 
+#include "rvr_msgs/msg/command_velocities.hpp"
 
-class RemoteControlPublisher : public rclcpp::Node {
+class RemoteControlPublisher : public rclcpp::Node
+{
 private:
-  // default 
+  // default
   void timer_callback();
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<rvr_msgs::msg::CommandVelocities>::SharedPtr publisher_;

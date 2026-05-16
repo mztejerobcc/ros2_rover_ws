@@ -13,9 +13,21 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rvr_msgs REQUIRED)
 
-add_executable(rc_pub src/rc_pub_lib.cpp src/rc_pub_main.cpp src/usb_interface_lib.cpp)
+add_executable(rc_pub
+                src/rc_pub_lib.cpp
+                src/rc_pub_main.cpp
+                src/usb_interface_lib.cpp)
 ament_target_dependencies(rc_pub rclcpp rvr_msgs)
 target_include_directories(rc_pub PUBLIC include)
+
+add_library(usb_interface_lib
+  src/usb_interface_lib.cpp
+)
+target_include_directories(usb_interface_lib PUBLIC include)
+
+add_executable(controller_test test/controller_test.cpp)
+target_link_libraries(controller_test usb_interface_lib)
+add_test(NAME ControllerTest COMMAND controller_test)
 
 install(TARGETS
   rc_pub

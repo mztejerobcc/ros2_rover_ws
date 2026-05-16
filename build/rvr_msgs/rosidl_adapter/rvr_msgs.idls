@@ -1,5 +1,0 @@
-/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_adapter/rvr_msgs:msg/CommandVelocities.idl
-/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_adapter/rvr_msgs:msg/Vector3.idl
-/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_adapter/rvr_msgs:msg/Wheel4.idl
-/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_adapter/rvr_msgs:msg/RoverData.idl
-/home/mztejero/rvr_ros2_ws/build/rvr_msgs/rosidl_adapter/rvr_msgs:msg/PosData.idl
