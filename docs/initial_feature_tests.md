@@ -1,6 +1,9 @@
 # Initial Feature: Read from USB
 
 Test outputs:
+
+test file be found at src/controller/test/controller_test.cpp
+
 ```
 Reading from USB
 test line: c:0:0:0:0:0:0
