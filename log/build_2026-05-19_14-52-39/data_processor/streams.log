@@ -1,0 +1,65 @@
+[0.023s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/data_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/data_processor -- -j4 -l4
+[0.081s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.417s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.476s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.480s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.492s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.608s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.611s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.793s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.914s] -- Found rvr_msgs: 0.0.0 (/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake)
+[1.003s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.172s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.174s] -- Configured cppcheck include dirs: /home/mztejero/rvr_ros2_ws/src/data_processor/include
+[1.175s] -- Configured cppcheck exclude dirs and/or files: 
+[1.175s] -- Added test 'lint_cmake' to check CMake code style
+[1.177s] -- Added test 'uncrustify' to check C / C++ code style
+[1.177s] -- Configured uncrustify additional arguments: 
+[1.178s] -- Added test 'xmllint' to check XML markup files
+[1.180s] -- Configuring done
+[1.228s] -- Generating done
+[1.243s] -- Build files have been written to: /home/mztejero/rvr_ros2_ws/build/data_processor
+[1.319s] [ 33%] [32mBuilding CXX object CMakeFiles/rvr_data_sub.dir/src/rvr_data_sub_lib.cpp.o[0m
+[1.319s] [ 66%] [32mBuilding CXX object CMakeFiles/rvr_data_sub.dir/src/rvr_data_sub_main.cpp.o[0m
+[1.344s] [01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdata_processor/rvr_data_sub_main: No such file or directory
+[1.345s]     1 | #include [01;31m[K"data_processor/rvr_data_sub_main"[m[K
+[1.345s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.345s] compilation terminated.
+[1.348s] gmake[2]: *** [CMakeFiles/rvr_data_sub.dir/build.make:90: CMakeFiles/rvr_data_sub.dir/src/rvr_data_sub_main.cpp.o] Error 1
+[1.348s] gmake[2]: *** Waiting for unfinished jobs....
+[7.216s] [01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:[m[K In constructor ‘[01m[KRvrDataSubscriber::RvrDataSubscriber()[m[K’:
+[7.216s] [01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:7:39:[m[K [01;31m[Kerror: [m[K‘[01m[KCmdVelSubscriber[m[K’ has not been declared
+[7.217s]     7 |     "/cmd_velocities", 10, std::bind(&[01;31m[KCmdVelSubscriber[m[K::topic_callback, this, _1));
+[7.217s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.223s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.223s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.225s]                  from [01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/include/data_processor/rvr_data_sub_lib.hpp:4[m[K,
+[7.225s]                  from [01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:1[m[K:
+[7.225s] [01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:[m[K In member function ‘[01m[Kvoid RvrDataSubscriber::topic_callback(const RoverData&)[m[K’:
+[7.225s] [01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:11:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst RoverData[m[K’ {aka ‘[01m[Kconst struct rvr_msgs::msg::RoverData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+[7.225s]    11 | LCPP_INFO(this->get_logger(), "Received: '%f, %f, %f'", msg.[01;31m[Ka[m[K.x, msg.a.y, msg.a.z);
+[7.225s]       |                                                             [01;31m[K^[m[K
+[7.226s] 
+[7.226s] [01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:11:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst RoverData[m[K’ {aka ‘[01m[Kconst struct rvr_msgs::msg::RoverData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+[7.226s]    11 | (this->get_logger(), "Received: '%f, %f, %f'", msg.a.x, msg.[01;31m[Ka[m[K.y, msg.a.z);
+[7.226s]       |                                                             [01;31m[K^[m[K
+[7.226s] 
+[7.226s] [01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:11:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst RoverData[m[K’ {aka ‘[01m[Kconst struct rvr_msgs::msg::RoverData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+[7.226s]    11 | is->get_logger(), "Received: '%f, %f, %f'", msg.a.x, msg.a.y, msg.[01;31m[Ka[m[K.z);
+[7.227s]       |                                                                   [01;31m[K^[m[K
+[7.227s] 
+[8.184s] gmake[2]: *** [CMakeFiles/rvr_data_sub.dir/build.make:76: CMakeFiles/rvr_data_sub.dir/src/rvr_data_sub_lib.cpp.o] Error 1
+[8.184s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rvr_data_sub.dir/all] Error 2
+[8.186s] gmake: *** [Makefile:146: all] Error 2
+[8.191s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/data_processor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/data_processor -- -j4 -l4

@@ -1,0 +1,5 @@
+[01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:[m[K In member function ‘[01m[Kvoid RvrDataSubscriber::topic_callback(const RoverData&)[m[K’:
+[01m[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:10:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   10 | rDataSubscriber::topic_callback([01;35m[Kconst rvr_msgs::msg::RoverData & msg[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

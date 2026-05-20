@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.002435] (-) JobUnselected: {'identifier': 'controller'}
+[0.004775] (-) JobUnselected: {'identifier': 'onboard_pkg'}
+[0.006417] (-) JobUnselected: {'identifier': 'rvr_launch'}
+[0.007646] (-) JobUnselected: {'identifier': 'rvr_msgs'}
+[0.008364] (-) JobUnselected: {'identifier': 'visualization'}
+[0.009052] (data_processor) JobQueued: {'identifier': 'data_processor', 'dependencies': OrderedDict()}
+[0.009236] (data_processor) JobStarted: {'identifier': 'data_processor'}
+[0.025279] (data_processor) JobProgress: {'identifier': 'data_processor', 'progress': 'cmake'}
+[0.027818] (data_processor) JobProgress: {'identifier': 'data_processor', 'progress': 'build'}
+[0.030418] (data_processor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mztejero/rvr_ros2_ws/build/data_processor', '--', '-j4', '-l4'], 'cwd': '/home/mztejero/rvr_ros2_ws/build/data_processor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mztejero'), ('SSH_CLIENT', '192.168.64.1 52823 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mztejero'), ('OLDPWD', '/home/mztejero'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mztejero'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mztejero/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/rvr_launch:/home/mztejero/rvr_ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mztejero/rvr_ros2_ws/build/data_processor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.64.1 52823 192.168.64.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/rvr_launch:/home/mztejero/rvr_ros2_ws/install/data_processor:/opt/ros/humble')]), 'shell': False}
+[0.089363] (data_processor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099305] (-) TimerEvent: {}
+[0.201711] (-) TimerEvent: {}
+[0.307818] (-) TimerEvent: {}
+[0.409785] (-) TimerEvent: {}
+[0.425716] (data_processor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.484531] (data_processor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.489470] (data_processor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500800] (data_processor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.510924] (-) TimerEvent: {}
+[0.519847] (data_processor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.542966] (data_processor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.612271] (-) TimerEvent: {}
+[0.616596] (data_processor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.620130] (data_processor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.713288] (-) TimerEvent: {}
+[0.802055] (data_processor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.814572] (-) TimerEvent: {}
+[0.916919] (-) TimerEvent: {}
+[0.918036] (data_processor) StdoutLine: {'line': b'-- Found rvr_msgs: 0.0.0 (/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake)\n'}
+[1.012220] (data_processor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.018021] (-) TimerEvent: {}
+[1.119094] (-) TimerEvent: {}
+[1.181433] (data_processor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.183116] (data_processor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mztejero/rvr_ros2_ws/src/data_processor/include\n'}
+[1.184002] (data_processor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.184199] (data_processor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.185780] (data_processor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.186060] (data_processor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.187048] (data_processor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.189184] (data_processor) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.220368] (-) TimerEvent: {}
+[1.236350] (data_processor) StdoutLine: {'line': b'-- Generating done\n'}
+[1.251546] (data_processor) StdoutLine: {'line': b'-- Build files have been written to: /home/mztejero/rvr_ros2_ws/build/data_processor\n'}
+[1.321362] (-) TimerEvent: {}
+[1.327484] (data_processor) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rvr_data_sub.dir/src/rvr_data_sub_lib.cpp.o\x1b[0m\n'}
+[1.327873] (data_processor) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rvr_data_sub.dir/src/rvr_data_sub_main.cpp.o\x1b[0m\n'}
+[1.352335] (data_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_main.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdata_processor/rvr_data_sub_main: No such file or directory\n'}
+[1.353694] (data_processor) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"data_processor/rvr_data_sub_main"\x1b[m\x1b[K\n'}
+[1.354254] (data_processor) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.354426] (data_processor) StderrLine: {'line': b'compilation terminated.\n'}
+[1.356598] (data_processor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rvr_data_sub.dir/build.make:90: CMakeFiles/rvr_data_sub.dir/src/rvr_data_sub_main.cpp.o] Error 1\n'}
+[1.356880] (data_processor) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.421667] (-) TimerEvent: {}
+[1.523036] (-) TimerEvent: {}
+[1.623881] (-) TimerEvent: {}
+[1.725518] (-) TimerEvent: {}
+[1.826875] (-) TimerEvent: {}
+[1.928924] (-) TimerEvent: {}
+[2.030601] (-) TimerEvent: {}
+[2.132155] (-) TimerEvent: {}
+[2.233349] (-) TimerEvent: {}
+[2.334566] (-) TimerEvent: {}
+[2.435466] (-) TimerEvent: {}
+[2.536556] (-) TimerEvent: {}
+[2.681410] (-) TimerEvent: {}
+[2.789701] (-) TimerEvent: {}
+[2.892337] (-) TimerEvent: {}
+[2.993599] (-) TimerEvent: {}
+[3.095361] (-) TimerEvent: {}
+[3.197775] (-) TimerEvent: {}
+[3.300081] (-) TimerEvent: {}
+[3.400939] (-) TimerEvent: {}
+[3.502232] (-) TimerEvent: {}
+[3.604050] (-) TimerEvent: {}
+[3.705781] (-) TimerEvent: {}
+[3.806895] (-) TimerEvent: {}
+[3.908356] (-) TimerEvent: {}
+[4.010251] (-) TimerEvent: {}
+[4.111115] (-) TimerEvent: {}
+[4.212241] (-) TimerEvent: {}
+[4.314242] (-) TimerEvent: {}
+[4.415067] (-) TimerEvent: {}
+[4.516099] (-) TimerEvent: {}
+[4.617414] (-) TimerEvent: {}
+[4.719023] (-) TimerEvent: {}
+[4.820051] (-) TimerEvent: {}
+[4.921376] (-) TimerEvent: {}
+[5.022789] (-) TimerEvent: {}
+[5.124051] (-) TimerEvent: {}
+[5.225921] (-) TimerEvent: {}
+[5.328513] (-) TimerEvent: {}
+[5.429963] (-) TimerEvent: {}
+[5.530895] (-) TimerEvent: {}
+[5.631953] (-) TimerEvent: {}
+[5.733600] (-) TimerEvent: {}
+[5.834515] (-) TimerEvent: {}
+[5.936186] (-) TimerEvent: {}
+[6.037036] (-) TimerEvent: {}
+[6.138983] (-) TimerEvent: {}
+[6.240631] (-) TimerEvent: {}
+[6.341906] (-) TimerEvent: {}
+[6.443967] (-) TimerEvent: {}
+[6.545283] (-) TimerEvent: {}
+[6.647770] (-) TimerEvent: {}
+[6.749312] (-) TimerEvent: {}
+[6.850739] (-) TimerEvent: {}
+[6.952930] (-) TimerEvent: {}
+[7.054147] (-) TimerEvent: {}
+[7.156237] (-) TimerEvent: {}
+[7.224957] (data_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRvrDataSubscriber::RvrDataSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.225583] (data_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:7:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCmdVelSubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.225740] (data_processor) StderrLine: {'line': b'    7 |     "/cmd_velocities", 10, std::bind(&\x1b[01;31m\x1b[KCmdVelSubscriber\x1b[m\x1b[K::topic_callback, this, _1));\n'}
+[7.225871] (data_processor) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.231654] (data_processor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.231986] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.232179] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.232365] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.232536] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.232724] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.232888] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.233052] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.233486] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.233628] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.233740] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.233852] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/data_processor/include/data_processor/rvr_data_sub_lib.hpp:4\x1b[m\x1b[K,\n'}
+[7.233964] (data_processor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:1\x1b[m\x1b[K:\n'}
+[7.234074] (data_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RvrDataSubscriber::topic_callback(const RoverData&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.234201] (data_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:11:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst RoverData\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct rvr_msgs::msg::RoverData_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.234315] (data_processor) StderrLine: {'line': b'   11 | LCPP_INFO(this->get_logger(), "Received: \'%f, %f, %f\'", msg.\x1b[01;31m\x1b[Ka\x1b[m\x1b[K.x, msg.a.y, msg.a.z);\n'}
+[7.234423] (data_processor) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.234542] (data_processor) StderrLine: {'line': b'\n'}
+[7.235061] (data_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:11:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst RoverData\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct rvr_msgs::msg::RoverData_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.235197] (data_processor) StderrLine: {'line': b'   11 | (this->get_logger(), "Received: \'%f, %f, %f\'", msg.a.x, msg.\x1b[01;31m\x1b[Ka\x1b[m\x1b[K.y, msg.a.z);\n'}
+[7.235313] (data_processor) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.235423] (data_processor) StderrLine: {'line': b'\n'}
+[7.235531] (data_processor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mztejero/rvr_ros2_ws/src/data_processor/src/rvr_data_sub_lib.cpp:11:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst RoverData\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct rvr_msgs::msg::RoverData_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.235643] (data_processor) StderrLine: {'line': b'   11 | is->get_logger(), "Received: \'%f, %f, %f\'", msg.a.x, msg.a.y, msg.\x1b[01;31m\x1b[Ka\x1b[m\x1b[K.z);\n'}
+[7.235750] (data_processor) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.235874] (data_processor) StderrLine: {'line': b'\n'}
+[7.257103] (-) TimerEvent: {}
+[7.359472] (-) TimerEvent: {}
+[7.464246] (-) TimerEvent: {}
+[7.567649] (-) TimerEvent: {}
+[7.668802] (-) TimerEvent: {}
+[7.770568] (-) TimerEvent: {}
+[7.871631] (-) TimerEvent: {}
+[7.973107] (-) TimerEvent: {}
+[8.074182] (-) TimerEvent: {}
+[8.175678] (-) TimerEvent: {}
+[8.192556] (data_processor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rvr_data_sub.dir/build.make:76: CMakeFiles/rvr_data_sub.dir/src/rvr_data_sub_lib.cpp.o] Error 1\n'}
+[8.193122] (data_processor) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rvr_data_sub.dir/all] Error 2\n'}
+[8.194570] (data_processor) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.199144] (data_processor) CommandEnded: {'returncode': 2}
+[8.240187] (data_processor) JobEnded: {'identifier': 'data_processor', 'rc': 2}
+[8.255333] (-) EventReactorShutdown: {}

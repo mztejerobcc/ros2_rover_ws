@@ -1,0 +1,339 @@
+[0.000000] (-) TimerEvent: {}
+[0.005223] (-) JobUnselected: {'identifier': 'controller'}
+[0.007430] (-) JobUnselected: {'identifier': 'data_processor'}
+[0.012932] (-) JobUnselected: {'identifier': 'rvr_launch'}
+[0.013504] (-) JobUnselected: {'identifier': 'rvr_msgs'}
+[0.013564] (-) JobUnselected: {'identifier': 'visualization'}
+[0.014097] (onboard_pkg) JobQueued: {'identifier': 'onboard_pkg', 'dependencies': OrderedDict([('rvr_msgs', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs')])}
+[0.014507] (onboard_pkg) JobStarted: {'identifier': 'onboard_pkg'}
+[0.057362] (onboard_pkg) JobProgress: {'identifier': 'onboard_pkg', 'progress': 'cmake'}
+[0.062403] (onboard_pkg) JobProgress: {'identifier': 'onboard_pkg', 'progress': 'build'}
+[0.064506] (onboard_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mztejero/rvr_ros2_ws/build/onboard_pkg', '--', '-j4', '-l4'], 'cwd': '/home/mztejero/rvr_ros2_ws/build/onboard_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mztejero'), ('SSH_CLIENT', '192.168.64.1 52823 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mztejero'), ('OLDPWD', '/home/mztejero'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mztejero'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mztejero/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/rvr_launch:/home/mztejero/rvr_ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mztejero/rvr_ros2_ws/build/onboard_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.64.1 52823 192.168.64.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/rvr_launch:/home/mztejero/rvr_ros2_ws/install/data_processor:/opt/ros/humble')]), 'shell': False}
+[0.099182] (-) TimerEvent: {}
+[0.202226] (-) TimerEvent: {}
+[0.266377] (onboard_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.302780] (-) TimerEvent: {}
+[0.404559] (-) TimerEvent: {}
+[0.506371] (-) TimerEvent: {}
+[0.608184] (-) TimerEvent: {}
+[0.709350] (-) TimerEvent: {}
+[0.767494] (onboard_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.810259] (-) TimerEvent: {}
+[0.911590] (-) TimerEvent: {}
+[0.982678] (onboard_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.999724] (onboard_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.012436] (-) TimerEvent: {}
+[1.043017] (onboard_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.113745] (onboard_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.114354] (-) TimerEvent: {}
+[1.184018] (onboard_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.215767] (-) TimerEvent: {}
+[1.317303] (-) TimerEvent: {}
+[1.385449] (onboard_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.400301] (onboard_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.418299] (-) TimerEvent: {}
+[1.519206] (-) TimerEvent: {}
+[1.620367] (-) TimerEvent: {}
+[1.723330] (-) TimerEvent: {}
+[1.775336] (onboard_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.824441] (-) TimerEvent: {}
+[1.925607] (-) TimerEvent: {}
+[2.027303] (-) TimerEvent: {}
+[2.075728] (onboard_pkg) StdoutLine: {'line': b'-- Found rvr_msgs: 0.0.0 (/home/mztejero/rvr_ros2_ws/install/rvr_msgs/share/rvr_msgs/cmake)\n'}
+[2.129392] (-) TimerEvent: {}
+[2.190765] (onboard_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.231030] (-) TimerEvent: {}
+[2.333526] (-) TimerEvent: {}
+[2.397170] (onboard_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.397805] (onboard_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mztejero/rvr_ros2_ws/src/onboard_pkg/include\n'}
+[2.399263] (onboard_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.402320] (onboard_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.407152] (onboard_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.407554] (onboard_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.409228] (onboard_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.419886] (onboard_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.434094] (-) TimerEvent: {}
+[2.536131] (-) TimerEvent: {}
+[2.540700] (onboard_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.567163] (onboard_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/mztejero/rvr_ros2_ws/build/onboard_pkg\n'}
+[2.640007] (-) TimerEvent: {}
+[2.655571] (onboard_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_vel_sub\x1b[0m\n'}
+[2.657496] (onboard_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rvr_data_pub\x1b[0m\n'}
+[2.708971] (onboard_pkg) StdoutLine: {'line': b'[ 50%] Built target rvr_data_pub\n'}
+[2.709262] (onboard_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_sub.dir/src/cmd_vel_sub_lib.cpp.o\x1b[0m\n'}
+[2.720831] (onboard_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_sub.dir/src/cmd_vel_sub_main.cpp.o\x1b[0m\n'}
+[2.755950] (-) TimerEvent: {}
+[2.764848] (onboard_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_sub.dir/src/rvr_usb_interface_lib.cpp.o\x1b[0m\n'}
+[2.858995] (-) TimerEvent: {}
+[2.964441] (-) TimerEvent: {}
+[3.073227] (-) TimerEvent: {}
+[3.176438] (-) TimerEvent: {}
+[3.278742] (-) TimerEvent: {}
+[3.379454] (-) TimerEvent: {}
+[3.487340] (-) TimerEvent: {}
+[3.592464] (-) TimerEvent: {}
+[3.693859] (-) TimerEvent: {}
+[3.795762] (-) TimerEvent: {}
+[3.896870] (-) TimerEvent: {}
+[3.998977] (-) TimerEvent: {}
+[4.102375] (-) TimerEvent: {}
+[4.203537] (-) TimerEvent: {}
+[4.308195] (-) TimerEvent: {}
+[4.409619] (-) TimerEvent: {}
+[4.511312] (-) TimerEvent: {}
+[4.613635] (-) TimerEvent: {}
+[4.720717] (-) TimerEvent: {}
+[4.824802] (-) TimerEvent: {}
+[4.928232] (-) TimerEvent: {}
+[5.033786] (-) TimerEvent: {}
+[5.135902] (-) TimerEvent: {}
+[5.237983] (-) TimerEvent: {}
+[5.339929] (-) TimerEvent: {}
+[5.441280] (-) TimerEvent: {}
+[5.542609] (-) TimerEvent: {}
+[5.643965] (-) TimerEvent: {}
+[5.745898] (-) TimerEvent: {}
+[5.847408] (-) TimerEvent: {}
+[5.955078] (-) TimerEvent: {}
+[6.056630] (-) TimerEvent: {}
+[6.159294] (-) TimerEvent: {}
+[6.260882] (-) TimerEvent: {}
+[6.362383] (-) TimerEvent: {}
+[6.463674] (-) TimerEvent: {}
+[6.574874] (-) TimerEvent: {}
+[6.675727] (-) TimerEvent: {}
+[6.777698] (-) TimerEvent: {}
+[6.878816] (-) TimerEvent: {}
+[6.995169] (-) TimerEvent: {}
+[7.096537] (-) TimerEvent: {}
+[7.201410] (-) TimerEvent: {}
+[7.305753] (-) TimerEvent: {}
+[7.410330] (-) TimerEvent: {}
+[7.515317] (-) TimerEvent: {}
+[7.620123] (-) TimerEvent: {}
+[7.722369] (-) TimerEvent: {}
+[7.823716] (-) TimerEvent: {}
+[7.932036] (-) TimerEvent: {}
+[8.035972] (-) TimerEvent: {}
+[8.138169] (-) TimerEvent: {}
+[8.242236] (-) TimerEvent: {}
+[8.343238] (-) TimerEvent: {}
+[8.447331] (-) TimerEvent: {}
+[8.548677] (-) TimerEvent: {}
+[8.651076] (-) TimerEvent: {}
+[8.752790] (-) TimerEvent: {}
+[8.959719] (-) TimerEvent: {}
+[9.062540] (-) TimerEvent: {}
+[9.171389] (-) TimerEvent: {}
+[9.273707] (-) TimerEvent: {}
+[9.377372] (-) TimerEvent: {}
+[9.478518] (-) TimerEvent: {}
+[9.579628] (-) TimerEvent: {}
+[9.680604] (-) TimerEvent: {}
+[9.782826] (-) TimerEvent: {}
+[9.884009] (-) TimerEvent: {}
+[9.985834] (-) TimerEvent: {}
+[10.087866] (-) TimerEvent: {}
+[10.189087] (-) TimerEvent: {}
+[10.290144] (-) TimerEvent: {}
+[10.392155] (-) TimerEvent: {}
+[10.494696] (-) TimerEvent: {}
+[10.599041] (-) TimerEvent: {}
+[10.699985] (-) TimerEvent: {}
+[10.802056] (-) TimerEvent: {}
+[10.903467] (-) TimerEvent: {}
+[11.004815] (-) TimerEvent: {}
+[11.106047] (-) TimerEvent: {}
+[11.207199] (-) TimerEvent: {}
+[11.309067] (-) TimerEvent: {}
+[11.410799] (-) TimerEvent: {}
+[11.512719] (-) TimerEvent: {}
+[11.613858] (-) TimerEvent: {}
+[11.715496] (-) TimerEvent: {}
+[11.816318] (-) TimerEvent: {}
+[11.918332] (-) TimerEvent: {}
+[12.020201] (-) TimerEvent: {}
+[12.121321] (-) TimerEvent: {}
+[12.222777] (-) TimerEvent: {}
+[12.324877] (-) TimerEvent: {}
+[12.426918] (-) TimerEvent: {}
+[12.528537] (-) TimerEvent: {}
+[12.630386] (-) TimerEvent: {}
+[12.731663] (-) TimerEvent: {}
+[12.833334] (-) TimerEvent: {}
+[12.934691] (-) TimerEvent: {}
+[13.036282] (-) TimerEvent: {}
+[13.137822] (-) TimerEvent: {}
+[13.238775] (-) TimerEvent: {}
+[13.340149] (-) TimerEvent: {}
+[13.444722] (-) TimerEvent: {}
+[13.550524] (-) TimerEvent: {}
+[13.652200] (-) TimerEvent: {}
+[13.754091] (-) TimerEvent: {}
+[13.857859] (-) TimerEvent: {}
+[13.959700] (-) TimerEvent: {}
+[14.061473] (-) TimerEvent: {}
+[14.163222] (-) TimerEvent: {}
+[14.361878] (-) TimerEvent: {}
+[14.507921] (-) TimerEvent: {}
+[14.774295] (-) TimerEvent: {}
+[14.875342] (-) TimerEvent: {}
+[15.009835] (-) TimerEvent: {}
+[15.112797] (-) TimerEvent: {}
+[15.214635] (-) TimerEvent: {}
+[15.319354] (-) TimerEvent: {}
+[15.573089] (-) TimerEvent: {}
+[15.773514] (-) TimerEvent: {}
+[15.876912] (-) TimerEvent: {}
+[15.980095] (-) TimerEvent: {}
+[16.081569] (-) TimerEvent: {}
+[16.190100] (-) TimerEvent: {}
+[16.292450] (-) TimerEvent: {}
+[16.395255] (-) TimerEvent: {}
+[16.496884] (-) TimerEvent: {}
+[16.599024] (-) TimerEvent: {}
+[16.700382] (-) TimerEvent: {}
+[16.802063] (-) TimerEvent: {}
+[16.904313] (-) TimerEvent: {}
+[17.005951] (-) TimerEvent: {}
+[17.108026] (-) TimerEvent: {}
+[17.210950] (-) TimerEvent: {}
+[17.313936] (-) TimerEvent: {}
+[17.415223] (-) TimerEvent: {}
+[17.516874] (-) TimerEvent: {}
+[17.619803] (-) TimerEvent: {}
+[17.721923] (-) TimerEvent: {}
+[17.823776] (-) TimerEvent: {}
+[17.925262] (-) TimerEvent: {}
+[18.029422] (-) TimerEvent: {}
+[18.131336] (-) TimerEvent: {}
+[18.232318] (-) TimerEvent: {}
+[18.333565] (-) TimerEvent: {}
+[18.438324] (-) TimerEvent: {}
+[18.540123] (-) TimerEvent: {}
+[18.644719] (-) TimerEvent: {}
+[18.746473] (-) TimerEvent: {}
+[18.848017] (-) TimerEvent: {}
+[18.954191] (-) TimerEvent: {}
+[19.056394] (-) TimerEvent: {}
+[19.159005] (-) TimerEvent: {}
+[19.261516] (-) TimerEvent: {}
+[19.364905] (-) TimerEvent: {}
+[19.468366] (-) TimerEvent: {}
+[19.571197] (-) TimerEvent: {}
+[19.672332] (-) TimerEvent: {}
+[19.776299] (-) TimerEvent: {}
+[19.878055] (-) TimerEvent: {}
+[19.979230] (-) TimerEvent: {}
+[20.080215] (-) TimerEvent: {}
+[20.181771] (-) TimerEvent: {}
+[20.283296] (-) TimerEvent: {}
+[20.384622] (-) TimerEvent: {}
+[20.487494] (-) TimerEvent: {}
+[20.589430] (-) TimerEvent: {}
+[20.692189] (-) TimerEvent: {}
+[20.793844] (-) TimerEvent: {}
+[20.895856] (-) TimerEvent: {}
+[20.997259] (-) TimerEvent: {}
+[21.098718] (-) TimerEvent: {}
+[21.199802] (-) TimerEvent: {}
+[21.301538] (-) TimerEvent: {}
+[21.403458] (-) TimerEvent: {}
+[21.505015] (-) TimerEvent: {}
+[21.606735] (-) TimerEvent: {}
+[21.708069] (-) TimerEvent: {}
+[21.809598] (-) TimerEvent: {}
+[21.911014] (-) TimerEvent: {}
+[22.012232] (-) TimerEvent: {}
+[22.113170] (-) TimerEvent: {}
+[22.214229] (-) TimerEvent: {}
+[22.319847] (-) TimerEvent: {}
+[22.421040] (-) TimerEvent: {}
+[22.524623] (-) TimerEvent: {}
+[22.626403] (-) TimerEvent: {}
+[22.727629] (-) TimerEvent: {}
+[22.829291] (-) TimerEvent: {}
+[22.931040] (-) TimerEvent: {}
+[23.032578] (-) TimerEvent: {}
+[23.135077] (-) TimerEvent: {}
+[23.236472] (-) TimerEvent: {}
+[23.337906] (-) TimerEvent: {}
+[23.439424] (-) TimerEvent: {}
+[23.540570] (-) TimerEvent: {}
+[23.642929] (-) TimerEvent: {}
+[23.745335] (-) TimerEvent: {}
+[23.847452] (-) TimerEvent: {}
+[23.950062] (-) TimerEvent: {}
+[24.055478] (-) TimerEvent: {}
+[24.156709] (-) TimerEvent: {}
+[24.261590] (-) TimerEvent: {}
+[24.363523] (-) TimerEvent: {}
+[24.466260] (-) TimerEvent: {}
+[24.569903] (-) TimerEvent: {}
+[24.671727] (-) TimerEvent: {}
+[24.773051] (-) TimerEvent: {}
+[24.875126] (-) TimerEvent: {}
+[24.977099] (-) TimerEvent: {}
+[25.077909] (-) TimerEvent: {}
+[25.179328] (-) TimerEvent: {}
+[25.280807] (-) TimerEvent: {}
+[25.381818] (-) TimerEvent: {}
+[25.483496] (-) TimerEvent: {}
+[25.584956] (-) TimerEvent: {}
+[25.686795] (-) TimerEvent: {}
+[25.788250] (-) TimerEvent: {}
+[25.890334] (-) TimerEvent: {}
+[25.992096] (-) TimerEvent: {}
+[26.093442] (-) TimerEvent: {}
+[26.194914] (-) TimerEvent: {}
+[26.296754] (-) TimerEvent: {}
+[26.397623] (-) TimerEvent: {}
+[26.499178] (-) TimerEvent: {}
+[26.601027] (-) TimerEvent: {}
+[26.709146] (-) TimerEvent: {}
+[26.813021] (-) TimerEvent: {}
+[26.913675] (-) TimerEvent: {}
+[27.015690] (-) TimerEvent: {}
+[27.116952] (-) TimerEvent: {}
+[27.200558] (onboard_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cmd_vel_sub\x1b[0m\n'}
+[27.217381] (-) TimerEvent: {}
+[27.319360] (-) TimerEvent: {}
+[27.420775] (-) TimerEvent: {}
+[27.522298] (-) TimerEvent: {}
+[27.626329] (-) TimerEvent: {}
+[27.729730] (-) TimerEvent: {}
+[27.830737] (-) TimerEvent: {}
+[27.934119] (-) TimerEvent: {}
+[28.039131] (-) TimerEvent: {}
+[28.141568] (-) TimerEvent: {}
+[28.243220] (-) TimerEvent: {}
+[28.344930] (-) TimerEvent: {}
+[28.431329] (onboard_pkg) StdoutLine: {'line': b'[100%] Built target cmd_vel_sub\n'}
+[28.445450] (-) TimerEvent: {}
+[28.458072] (onboard_pkg) CommandEnded: {'returncode': 0}
+[28.461694] (onboard_pkg) JobProgress: {'identifier': 'onboard_pkg', 'progress': 'install'}
+[28.478348] (onboard_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mztejero/rvr_ros2_ws/build/onboard_pkg'], 'cwd': '/home/mztejero/rvr_ros2_ws/build/onboard_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mztejero'), ('SSH_CLIENT', '192.168.64.1 52823 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mztejero'), ('OLDPWD', '/home/mztejero'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mztejero'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mztejero/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/rvr_launch:/home/mztejero/rvr_ros2_ws/install/data_processor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mztejero/rvr_ros2_ws/build/onboard_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.64.1 52823 192.168.64.2 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mztejero/rvr_ros2_ws/install/rvr_msgs:/home/mztejero/rvr_ros2_ws/install/visualization:/home/mztejero/rvr_ros2_ws/install/onboard_pkg:/home/mztejero/rvr_ros2_ws/install/controller:/home/mztejero/rvr_ros2_ws/install/rvr_launch:/home/mztejero/rvr_ros2_ws/install/data_processor:/opt/ros/humble')]), 'shell': False}
+[28.507273] (onboard_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.511050] (onboard_pkg) StdoutLine: {'line': b'-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/cmd_vel_sub\n'}
+[28.520585] (onboard_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/cmd_vel_sub" to ""\n'}
+[28.527935] (onboard_pkg) StdoutLine: {'line': b'-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/rvr_data_pub\n'}
+[28.533615] (onboard_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/mztejero/rvr_ros2_ws/install/onboard_pkg/lib/onboard_pkg/rvr_data_pub" to ""\n'}
+[28.534181] (onboard_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/ament_index/resource_index/package_run_dependencies/onboard_pkg\n'}
+[28.535144] (onboard_pkg) StdoutLine: {'line': b'-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/ament_index/resource_index/parent_prefix_path/onboard_pkg\n'}
+[28.535895] (onboard_pkg) StdoutLine: {'line': b'-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/ament_prefix_path.sh\n'}
+[28.536219] (onboard_pkg) StdoutLine: {'line': b'-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/ament_prefix_path.dsv\n'}
+[28.537419] (onboard_pkg) StdoutLine: {'line': b'-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/path.sh\n'}
+[28.537957] (onboard_pkg) StdoutLine: {'line': b'-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/environment/path.dsv\n'}
+[28.538415] (onboard_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.bash\n'}
+[28.538897] (onboard_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.sh\n'}
+[28.539369] (onboard_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.zsh\n'}
+[28.539687] (onboard_pkg) StdoutLine: {'line': b'-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/local_setup.dsv\n'}
+[28.540227] (onboard_pkg) StdoutLine: {'line': b'-- Installing: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.dsv\n'}
+[28.540470] (onboard_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/ament_index/resource_index/packages/onboard_pkg\n'}
+[28.540933] (onboard_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/cmake/onboard_pkgConfig.cmake\n'}
+[28.541205] (onboard_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/cmake/onboard_pkgConfig-version.cmake\n'}
+[28.542241] (onboard_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mztejero/rvr_ros2_ws/install/onboard_pkg/share/onboard_pkg/package.xml\n'}
+[28.547141] (-) TimerEvent: {}
+[28.550111] (onboard_pkg) CommandEnded: {'returncode': 0}
+[28.615925] (onboard_pkg) JobEnded: {'identifier': 'onboard_pkg', 'rc': 0}
+[28.621036] (-) EventReactorShutdown: {}

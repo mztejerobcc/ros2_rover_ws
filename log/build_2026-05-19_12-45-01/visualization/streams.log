@@ -1,0 +1,47 @@
+[0.174s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/visualization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mztejero/rvr_ros2_ws/src/visualization -DCMAKE_INSTALL_PREFIX=/home/mztejero/rvr_ros2_ws/install/visualization
+[1.120s] -- The C compiler identification is GNU 11.4.0
+[1.638s] -- The CXX compiler identification is GNU 11.4.0
+[1.712s] -- Detecting C compiler ABI info
+[2.024s] -- Detecting C compiler ABI info - done
+[2.074s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.074s] -- Detecting C compile features
+[2.075s] -- Detecting C compile features - done
+[2.084s] -- Detecting CXX compiler ABI info
+[2.384s] -- Detecting CXX compiler ABI info - done
+[2.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.449s] -- Detecting CXX compile features
+[2.451s] -- Detecting CXX compile features - done
+[2.465s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.903s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.522s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.858s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.859s] -- Configured cppcheck include dirs: 
+[3.859s] -- Configured cppcheck exclude dirs and/or files: 
+[3.871s] -- Added test 'lint_cmake' to check CMake code style
+[3.884s] -- Added test 'uncrustify' to check C / C++ code style
+[3.888s] -- Configured uncrustify additional arguments: 
+[3.889s] -- Added test 'xmllint' to check XML markup files
+[3.910s] -- Configuring done
+[3.910s] -- Generating done
+[3.922s] -- Build files have been written to: /home/mztejero/rvr_ros2_ws/build/visualization
+[3.993s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mztejero/rvr_ros2_ws/src/visualization -DCMAKE_INSTALL_PREFIX=/home/mztejero/rvr_ros2_ws/install/visualization
+[4.002s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/visualization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/visualization -- -j4 -l4
+[4.164s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mztejero/rvr_ros2_ws/build/visualization -- -j4 -l4
+[4.167s] Invoking command in '/home/mztejero/rvr_ros2_ws/build/visualization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/visualization
+[4.199s] -- Install configuration: ""
+[4.200s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/ament_index/resource_index/package_run_dependencies/visualization
+[4.200s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/ament_index/resource_index/parent_prefix_path/visualization
+[4.201s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/environment/ament_prefix_path.sh
+[4.205s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/environment/ament_prefix_path.dsv
+[4.207s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/environment/path.sh
+[4.208s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/environment/path.dsv
+[4.209s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/local_setup.bash
+[4.210s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/local_setup.sh
+[4.210s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/local_setup.zsh
+[4.212s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/local_setup.dsv
+[4.212s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.dsv
+[4.212s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/ament_index/resource_index/packages/visualization
+[4.212s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/cmake/visualizationConfig.cmake
+[4.212s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/cmake/visualizationConfig-version.cmake
+[4.213s] -- Installing: /home/mztejero/rvr_ros2_ws/install/visualization/share/visualization/package.xml
+[4.354s] Invoked command in '/home/mztejero/rvr_ros2_ws/build/visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mztejero/rvr_ros2_ws/build/visualization
