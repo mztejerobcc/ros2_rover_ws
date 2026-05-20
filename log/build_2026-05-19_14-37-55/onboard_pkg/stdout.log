@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target cmd_vel_sub[0m
-[35m[1mConsolidate compiler generated dependencies of target rvr_data_pub[0m
-[ 14%] [32mBuilding CXX object CMakeFiles/cmd_vel_sub.dir/src/cmd_vel_sub_lib.cpp.o[0m
-[ 28%] [32mBuilding CXX object CMakeFiles/cmd_vel_sub.dir/src/cmd_vel_sub_main.cpp.o[0m
-[ 85%] Built target rvr_data_pub
