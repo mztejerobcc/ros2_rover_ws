@@ -10,6 +10,17 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(rvr_msgs REQUIRED)
+
+add_executable(rvr_data_sub src/rvr_data_sub_lib.cpp src/rvr_data_sub_main.cpp)
+ament_target_dependencies(rvr_data_sub rclcpp rvr_msgs)
+target_include_directories(rvr_data_sub PUBLIC include)
+
+install(TARGETS
+  rvr_data_sub
+  DESTINATION lib/${PROJECT_NAME})
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -11,11 +11,11 @@ rvrUsbInterface::rvrUsbInterface() : device("/dev/ttyUSB0"),
     https://man7.org/linux/man-pages/man3/tcsetattr.3.html
     */
     
-    fd = open(device, O_RDWR | O_NOCTTY | O_NDELAY);
+    fd = open(device, O_RDWR | O_NOCTTY | O_NONBLOCK);
 
     while (fd == -1) {
         printf("CUSTOM ERROR MESSAGE: failed to open port\n");
-        fd = open(device, O_RDWR | O_NOCTTY | O_NDELAY);
+        fd = open(device, O_RDWR | O_NOCTTY | O_NONBLOCK);
         std::this_thread::sleep_for(std::chrono::seconds(1));
     }
 
