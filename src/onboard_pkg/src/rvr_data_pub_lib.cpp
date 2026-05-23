@@ -14,26 +14,26 @@ void RoverDataPublisher::timer_callback()
   auto message = rvr_msgs::msg::RoverData();
 
   std::string line = serial.usbRead();
-  serial.parseData(line);
+  this->serial.parseData(line);
 
   // store each updated command velocity into message
-  message.d_wheel.wheel1 = serial.getD1();
-  message.d_wheel.wheel2 = serial.getD2();
-  message.d_wheel.wheel3 = serial.getD3();
-  message.d_wheel.wheel4 = serial.getD4();
+  message.d_wheel.wheel1 = this->serial.getD1();
+  message.d_wheel.wheel2 = this->serial.getD2();
+  message.d_wheel.wheel3 = this->serial.getD3();
+  message.d_wheel.wheel4 = this->serial.getD4();
 
-  message.v_wheel.wheel1 = serial.getV1();
-  message.v_wheel.wheel2 = serial.getV2();
-  message.v_wheel.wheel3 = serial.getV3();
-  message.v_wheel.wheel4 = serial.getV4();
+  message.v_wheel.wheel1 = this->serial.getV1();
+  message.v_wheel.wheel2 = this->serial.getV2();
+  message.v_wheel.wheel3 = this->serial.getV3();
+  message.v_wheel.wheel4 = this->serial.getV4();
 
-  message.a_imu.x = serial.getAX();
-  message.a_imu.y = serial.getAY();
-  message.a_imu.z = serial.getAZ();
+  message.a_imu.x = this->serial.getAX();
+  message.a_imu.y = this->serial.getAY();
+  message.a_imu.z = this->serial.getAZ();
 
-  message.w_imu.x = serial.getWX();
-  message.w_imu.y = serial.getWY();
-  message.w_imu.z = serial.getWZ();
+  message.w_imu.x = this->serial.getWX();
+  message.w_imu.y = this->serial.getWY();
+  message.w_imu.z = this->serial.getWZ();
 
   // Log message (helps user see data in real time)
   RCLCPP_INFO(this->get_logger(), "Publishing d: '%f, %f, %f, %f'", message.d_wheel.wheel1, message.d_wheel.wheel2, message.d_wheel.wheel3, message.d_wheel.wheel4);
