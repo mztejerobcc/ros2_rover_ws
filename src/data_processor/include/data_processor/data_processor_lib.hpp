@@ -1,72 +1,75 @@
-#include "rvr_msgs/msg/rover_data.hpp" // get data from subscriber
+#ifndef DATA_PROCESSOR_HPP
+#define DATA_PROCESSOR_HPP
 
-class DataProcessor:
+#include <chrono>
+#include <thread>
+#include <Eigen/Dense>
+
+#include "rvr_msgs/msg/rover_data.hpp" // get data from subscriber
+#include "rvr_msgs/msg/pos_data.hpp"
+
+class DataProcessor {
     private:
 
         /*
         This class is meant to estimate position and heading angle using IMU data and
         wheel encoder data individually. No sensor fusion is currently being implemented.
         */
-    
-        // Note: some of these variable might be created and destroyed within the
-        // function they are used in.
 
-        // Time variables
         float dt;
-        float t_total;
+        float W;
 
-        // IMU data
-        float ax_imu;
-        float ay_imu;
+        Eigen::Vector3d offsets; // TODO: find actual offsets!
+        Eigen::Vector3d a_bias; // TODO: find actual imu bias
+        Eigen::Vector3d gravity;
 
-        float wx_imu;
-        float wy_imu;
+        Eigen::Vector3d angle_imu;
+        Eigen::Vector3d omega_imu;
 
-        // Estimated values from IMU data
-        float vx_imu;
-        float vy_imu;
+        Eigen::Vector3d a_body_imu;
+        Eigen::Vector3d v_body_imu;
+        Eigen::Vector3d r_body_imu;
 
-        float x_imu;
-        float y_imu;
+        Eigen::Vector3d a_global_imu;
+        Eigen::Vector3d v_global_imu;
+        Eigen::Vector3d r_global_imu;
 
-        float yaw_imu;
+        Eigen::Vector3d angle_enc;
+        Eigen::Vector3d omega_enc;
 
-        // Wheel Encoder data
-        float d_w1;
-        float d_w2;
-        float d_w3;
-        float d_w4;
+        Eigen::Vector3d a_body_enc;
+        Eigen::Vector3d v_body_enc;
+        Eigen::Vector3d r_body_enc;
 
-        float v_w1;
-        float v_w2;
-        float v_w3;
-        float v_w4;
+        Eigen::Vector3d a_global_enc;
+        Eigen::Vector3d v_global_enc;
+        Eigen::Vector3d r_global_enc;
 
-        // Estimated values from wheel encoder data
-        float x_w;
-        float y_w;
+        // strictly use for xy-plane where pitch and roll are assumed to be zero
+        Eigen::Vector3d R_b_to_g(Eigen::Vector3d state, double theta);
 
-        float yaw_w;
-
-        // Estimated global values
-        float x_global_imu;
-        float y_global_imu;
-        float yaw_global_imu; // should not be affected by frame conversion
-
-        float x_global_we;
-        float y_global_we;
-        float yaw_global_we; // should not be affected by frame conversion
+        void updateImuStates();
+        void updateEncStates();
 
     public:
-        void ImuPosEstimate(float ax, float ay, float az); // updates imu position variables
-        void WheelEncoderEstimate(float d1, float d2, float d3, float d4); // updates wheel encoder position variables
-        void BodyToGlobal(float x, float y, float z); // updatess global variables
+
+        DataProcessor();
+        ~DataProcessor();
+
+        void ReceiveImuData(const rvr_msgs::msg::RoverData & msg);
+        void ReceiveEncData(const rvr_msgs::msg::RoverData & msg);
+
+        void ProcessImuData();
+        void ProcessEncData();
 
         // Getters
         float GetXGlobalIMU();
         float GetYGlobalIMU();
         float GetYawGlobalIMU();
 
-        float GetXGlobalWE();
-        float GetYGlobalWE();
-        float GetYawGlobalWE();
+        float GetXGlobalEnc();
+        float GetYGlobalEnc();
+        float GetYawGlobalEnc();
+};
+
+#endif

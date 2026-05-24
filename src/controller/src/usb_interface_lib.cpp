@@ -45,7 +45,7 @@ void usbInterface::usbWrite(int x)
   int len_data = snprintf(
     this->data_to_send, sizeof(this->data_to_send),
     "Test message from Mac... %d\n", x);
-  std::cout << "writing to buffer: " << this->data_to_send << std::endl;
+  // std::cout << "writing to buffer: " << this->data_to_send << std::endl;
 
   if (len_data > 0) {
     write(fd, this->data_to_send, sizeof(data_to_send));
@@ -99,7 +99,7 @@ void usbInterface::parseData(std::string line)
 {
   int len = sizeof(line);
 
-  std::cout << "line: " << line << std::endl;
+  // std::cout << "line: " << line << std::endl;
 
   char line_data[6][64];
 
