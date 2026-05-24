@@ -60,8 +60,8 @@ void DataProcessorPublisher::imu_callback()
   imu_marker.lifetime.nanosec = 0;
 
   // Log message (helps user see data in real time)
-  RCLCPP_INFO(
-    this->get_logger(), "Publishing Pos: '%f, %f, %f'", imu_marker.pose.position.x, imu_marker.pose.position.y, yaw_imu);
+  // RCLCPP_INFO(
+  //   this->get_logger(), "Publishing Pos: '%f, %f, %f'", imu_marker.pose.position.x, imu_marker.pose.position.y, yaw_imu);
 
   // publish message
   imu_publisher_->publish(imu_marker);
@@ -70,7 +70,7 @@ void DataProcessorPublisher::imu_callback()
 void DataProcessorPublisher::enc_callback()
 {
   auto enc_marker = visualization_msgs::msg::Marker();
-  this->dp->ProcessImuData();
+  this->dp->ProcessEncData();
 
   // Get processed position and yaw from data processor
   float x_enc = this->dp->GetXGlobalEnc();
@@ -116,7 +116,7 @@ void DataProcessorPublisher::enc_callback()
 
   // Log message (helps user see data in real time)
   RCLCPP_INFO(
-    this->get_logger(), "Publishing Pos: '%f, %f, %f'", enc_marker.pose.position.x, enc_marker.pose.position.y, yaw_enc);
+    this->get_logger(), "Publishing Enc Pos: '%f, %f, %f'", enc_marker.pose.position.x, enc_marker.pose.position.y, yaw_enc);
 
   // publish message
   enc_publisher_->publish(enc_marker);

@@ -32,8 +32,8 @@ void test_parseData(std::string line,
   float vyr = vel_yr * 10e-3;
 
   // Encoder values
-  float encl = enc_l * 10e-3;
-  float encr = enc_r * 10e-3;
+  float encl = enc_l * 10e-2;
+  float encr = enc_r * 10e-1;
 
   // Convert to speed and steering inputs on vehicle
   float u_speed = vxl * encl;
