@@ -11,16 +11,20 @@
 #include "rclcpp/rclcpp.hpp"
 #include "data_processor/data_processor_lib.hpp"
 
+#include "geometry_msgs/msg/point.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
-#include <nav_msgs/msg/odometry.hpp>
+#include "visualization_msgs/msg/marker.hpp"
 
 class DataProcessorPublisher : public rclcpp::Node
 {
 private:
   // default
-  void timer_callback();
+  void imu_callback();
+  void enc_callback();
+  void publish_all();
   rclcpp::TimerBase::SharedPtr timer_;
-  rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr publisher_;
+  rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr imu_publisher_;
+  rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr enc_publisher_;
 
   std::shared_ptr<DataProcessor> dp; // create a shared object for data processing
 

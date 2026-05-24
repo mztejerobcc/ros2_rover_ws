@@ -9,6 +9,7 @@ RvrDataSubscriber::RvrDataSubscriber(std::shared_ptr<DataProcessor> dp)
   }
 
 void RvrDataSubscriber::topic_callback(const rvr_msgs::msg::RoverData & msg) {
-  this->dp->ReceiveData(msg);
-  RCLCPP_INFO(this->get_logger(), "Received RvrData: '%f, %f, %f'", msg.a_imu.x, msg.a_imu.y, msg.w_imu.z);
+  this->dp->ReceiveImuData(msg);
+  this->dp->ReceiveEncData(msg);
+  // RCLCPP_INFO(this->get_logger(), "Received RvrData: '%f, %f, %f'", msg.a_imu.x, msg.a_imu.y, msg.w_imu.z);
 }

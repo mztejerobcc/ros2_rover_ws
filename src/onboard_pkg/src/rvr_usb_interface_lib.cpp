@@ -45,7 +45,7 @@ rvrUsbInterface::~rvrUsbInterface() {};
 void rvrUsbInterface::usbWrite() {
     int len_data = snprintf(this->data_to_send,
                             sizeof(this->data_to_send),
-                            "v:%f:%f:%f:%f\n",
+                            "v%f:%f:%f:%f\n",
                             this->cmd_v1, this->cmd_v2, this->cmd_v3, this->cmd_v4);
     // std::cout << "writing to buffer: " << this->data_to_send << std::endl;
     

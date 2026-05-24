@@ -2,50 +2,127 @@
 using namespace std::chrono_literals;
 
 DataProcessorPublisher::DataProcessorPublisher(std::shared_ptr<DataProcessor> dp)
-: Node("data_processor_publisher"), dp(dp)
+: Node("imu_odom_publisher"), dp(dp)
 {
-  publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("odom", 10);
+  imu_publisher_ = this->create_publisher<visualization_msgs::msg::Marker>("imu_odom", 10);
+  enc_publisher_ = this->create_publisher<visualization_msgs::msg::Marker>("enc_odom", 10);
+  
   timer_ = this->create_wall_timer(
-    10ms, std::bind(&DataProcessorPublisher::timer_callback, this)
+    10ms, std::bind(&DataProcessorPublisher::publish_all, this)
   );
 }
 
-void DataProcessorPublisher::timer_callback()
+void DataProcessorPublisher::imu_callback()
 {
-  auto message = geometry_msgs::msg::PoseStamped();
-  this->dp->ProcessData();
+  auto imu_marker = visualization_msgs::msg::Marker();
+  this->dp->ProcessImuData();
 
-  // message.header.stamp = this->get_clock()->now();
-  // message.header.frame_id = "odom";
-  // message.child_frame_id = "base_link";
+  // Get processed position and yaw from data processor
+  float x_imu = this->dp->GetXGlobalIMU();
+  float y_imu = this->dp->GetYGlobalIMU();
+  float yaw_imu = this->dp->GetYawGlobalIMU();
 
-  // store each updated command velocity into message
-  message.pose.position.x = this->dp->GetXGlobalIMU();
-  message.pose.position.y = this->dp->GetYGlobalIMU();
-  message.pose.position.z = 0.0;
+  // Create marker
+  imu_marker.header.frame_id = "map";
+  imu_marker.header.stamp = this->now();
+  imu_marker.ns = "imu";
+  imu_marker.id = 0;
+  imu_marker.type = visualization_msgs::msg::Marker::CUBE;
+  imu_marker.action = visualization_msgs::msg::Marker::ADD;
 
-  // convert to quarernion for Foxglove message type
-  // 3Blue1Brown explanation: https://www.youtube.com/watch?v=zjMuIxRvygQ
-  double yaw = this->dp->GetYawGlobalIMU();
-  // double pitch = 0.0;
-  // double roll = 0.0;
+  // Set position
+  imu_marker.pose.position.x = x_imu;
+  imu_marker.pose.position.y = y_imu;
+  imu_marker.pose.position.z = 0.0;
 
-  double cos_yaw = cos(yaw / 2.0);
-  double sin_yaw = sin(yaw / 2.0);
-  // double cos_pitch = cos(pitch / 2.0);
-  // double sin_pitch = sin(pitch / 2.0);
-  // double cos_roll = cos(roll / 2.0);q
-  // double sin_roll = sin(roll / 2.0);
+  // Convert yaw to quaternion
+  double imu_cos_yaw = cos(yaw_imu / 2.0);
+  double imu_sin_yaw = sin(yaw_imu / 2.0);
 
-  message.pose.orientation.x = 0.0;
-  message.pose.orientation.y = 0.0;
-  message.pose.orientation.z = sin_yaw;
-  message.pose.orientation.w = cos_yaw;
+  imu_marker.pose.orientation.x = 0.0;
+  imu_marker.pose.orientation.y = 0.0;
+  imu_marker.pose.orientation.z = imu_sin_yaw;
+  imu_marker.pose.orientation.w = imu_cos_yaw;
+
+  // Set scale
+  imu_marker.scale.x = 5;  // length
+  imu_marker.scale.y = 3;  // width
+  imu_marker.scale.z = 2;  // height
+
+  // Set color
+  imu_marker.color.r = 1.0;
+  imu_marker.color.g = 0.0;
+  imu_marker.color.b = 0.0;
+  imu_marker.color.a = 1.0;
+
+  // Lifetime (0 = forever)
+  imu_marker.lifetime.sec = 0;
+  imu_marker.lifetime.nanosec = 0;
 
   // Log message (helps user see data in real time)
   RCLCPP_INFO(
-    this->get_logger(), "Publishing Pos: '%f, %f, %f'", message.pose.position.x, message.pose.position.y, yaw);
+    this->get_logger(), "Publishing Pos: '%f, %f, %f'", imu_marker.pose.position.x, imu_marker.pose.position.y, yaw_imu);
 
   // publish message
-  publisher_->publish(message);
+  imu_publisher_->publish(imu_marker);
+}
+
+void DataProcessorPublisher::enc_callback()
+{
+  auto enc_marker = visualization_msgs::msg::Marker();
+  this->dp->ProcessImuData();
+
+  // Get processed position and yaw from data processor
+  float x_enc = this->dp->GetXGlobalEnc();
+  float y_enc = this->dp->GetYGlobalEnc();
+  float yaw_enc = this->dp->GetYawGlobalEnc();
+
+  // Create marker
+  enc_marker.header.frame_id = "map";
+  enc_marker.header.stamp = this->now();
+  enc_marker.ns = "encoder";
+  enc_marker.id = 1;
+  enc_marker.type = visualization_msgs::msg::Marker::CUBE;
+  enc_marker.action = visualization_msgs::msg::Marker::ADD;
+
+  // Set position
+  enc_marker.pose.position.x = x_enc;
+  enc_marker.pose.position.y = y_enc;
+  enc_marker.pose.position.z = 0.0;
+
+  // Convert yaw to quaternion
+  double enc_cos_yaw = cos(yaw_enc / 2.0);
+  double enc_sin_yaw = sin(yaw_enc / 2.0);
+
+  enc_marker.pose.orientation.x = 0.0;
+  enc_marker.pose.orientation.y = 0.0;
+  enc_marker.pose.orientation.z = enc_sin_yaw;
+  enc_marker.pose.orientation.w = enc_cos_yaw;
+
+  // Set scale
+  enc_marker.scale.x = 5;  // length
+  enc_marker.scale.y = 3;  // width
+  enc_marker.scale.z = 2;  // height
+
+  // Set color
+  enc_marker.color.r = 1.0;
+  enc_marker.color.g = 1.0;
+  enc_marker.color.b = 0.0;
+  enc_marker.color.a = 1.0;
+
+  // Lifetime (0 = forever)
+  enc_marker.lifetime.sec = 0;
+  enc_marker.lifetime.nanosec = 0;
+
+  // Log message (helps user see data in real time)
+  RCLCPP_INFO(
+    this->get_logger(), "Publishing Pos: '%f, %f, %f'", enc_marker.pose.position.x, enc_marker.pose.position.y, yaw_enc);
+
+  // publish message
+  enc_publisher_->publish(enc_marker);
+}
+
+void DataProcessorPublisher::publish_all() {
+  imu_callback();
+  enc_callback();
 }

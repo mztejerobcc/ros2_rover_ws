@@ -17,43 +17,59 @@ class DataProcessor {
         */
 
         float dt;
+        float W;
 
         Eigen::Vector3d offsets; // TODO: find actual offsets!
         Eigen::Vector3d a_bias; // TODO: find actual imu bias
         Eigen::Vector3d gravity;
 
-        Eigen::Vector3d angle;
-        Eigen::Vector3d omega;
+        Eigen::Vector3d angle_imu;
+        Eigen::Vector3d omega_imu;
 
-        Eigen::Vector3d a_body;
-        Eigen::Vector3d v_body;
-        Eigen::Vector3d r_body;
+        Eigen::Vector3d a_body_imu;
+        Eigen::Vector3d v_body_imu;
+        Eigen::Vector3d r_body_imu;
 
-        Eigen::Vector3d a_global;
-        Eigen::Vector3d v_global;
-        Eigen::Vector3d r_global;
+        Eigen::Vector3d a_global_imu;
+        Eigen::Vector3d v_global_imu;
+        Eigen::Vector3d r_global_imu;
+
+        Eigen::Vector3d angle_enc;
+        Eigen::Vector3d omega_enc;
+
+        Eigen::Vector3d a_body_enc;
+        Eigen::Vector3d v_body_enc;
+        Eigen::Vector3d r_body_enc;
+
+        Eigen::Vector3d a_global_enc;
+        Eigen::Vector3d v_global_enc;
+        Eigen::Vector3d r_global_enc;
 
         // strictly use for xy-plane where pitch and roll are assumed to be zero
         Eigen::Vector3d R_b_to_g(Eigen::Vector3d state, double theta);
 
-        void updateStates();
+        void updateImuStates();
+        void updateEncStates();
 
     public:
 
         DataProcessor();
         ~DataProcessor();
 
-        void ReceiveData(const rvr_msgs::msg::RoverData & msg);
-        void ProcessData();
+        void ReceiveImuData(const rvr_msgs::msg::RoverData & msg);
+        void ReceiveEncData(const rvr_msgs::msg::RoverData & msg);
+
+        void ProcessImuData();
+        void ProcessEncData();
 
         // Getters
         float GetXGlobalIMU();
         float GetYGlobalIMU();
         float GetYawGlobalIMU();
 
-        float GetXGlobalWE();
-        float GetYGlobalWE();
-        float GetYawGlobalWE();
+        float GetXGlobalEnc();
+        float GetYGlobalEnc();
+        float GetYawGlobalEnc();
 };
 
 #endif

@@ -14,10 +14,11 @@ find_package(rclcpp REQUIRED)
 find_package(rvr_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(Eigen3 REQUIRED)
-find_package(nav_msgs REQUIRED)
+find_package(visualization_msgs REQUIRED)
+find_package(tf2 REQUIRED)
 
 add_executable(data_main_node src/data_main.cpp src/rvr_data_sub_lib.cpp src/data_pub_lib.cpp src/data_processor_lib.cpp)
-ament_target_dependencies(data_main_node rclcpp rvr_msgs geometry_msgs nav_msgs)
+ament_target_dependencies(data_main_node rclcpp rvr_msgs geometry_msgs visualization_msgs tf2)
 target_link_libraries(data_main_node Eigen3::Eigen)
 target_include_directories(data_main_node PUBLIC include)
 
